@@ -1,17 +1,19 @@
 {
     "progressions": [
         {
-            "weight": 0,
-            "chords": [
-                {"type": "I", "inversion": -1}
-            ]
-        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inverions": 0},
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -19,7 +21,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -28,7 +30,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -37,7 +39,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -46,7 +48,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -55,27 +57,27 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
             "chords": [
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
             "chords": [
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -84,7 +86,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -93,7 +95,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -101,7 +103,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -111,7 +113,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -121,7 +123,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -129,7 +131,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -139,7 +141,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -149,7 +151,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "comment": "I - I6",
@@ -159,7 +161,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -168,7 +170,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 2,
@@ -178,7 +180,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 2,
@@ -188,7 +190,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 2,
@@ -198,7 +200,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.8,
@@ -208,7 +210,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.8,
@@ -216,10 +218,10 @@
                 {"type": "I", "inversion": 0},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.8,
@@ -227,10 +229,10 @@
                 {"type": "I", "inversion": 0},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.5,
@@ -240,7 +242,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.5,
@@ -250,7 +252,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -259,7 +261,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -270,7 +272,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 2,
@@ -281,7 +283,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -290,7 +292,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -301,7 +303,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -312,7 +314,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -321,7 +323,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -330,7 +332,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -340,7 +342,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -350,7 +352,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -360,7 +362,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -370,7 +372,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -378,10 +380,10 @@
                 {"type": "I", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -389,10 +391,10 @@
                 {"type": "I", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 600,
@@ -402,7 +404,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 300,
@@ -412,7 +414,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -421,7 +423,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -432,7 +434,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -443,7 +445,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -452,7 +454,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -463,7 +465,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -474,7 +476,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -484,7 +486,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -494,7 +496,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -505,7 +507,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -516,7 +518,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -527,7 +529,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -538,7 +540,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -547,10 +549,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -559,10 +561,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -573,7 +575,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -584,7 +586,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -594,7 +596,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -606,7 +608,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -618,7 +620,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -628,7 +630,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -640,7 +642,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -652,7 +654,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -662,7 +664,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -672,7 +674,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -683,7 +685,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -694,7 +696,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -705,7 +707,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -716,7 +718,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -725,10 +727,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -737,10 +739,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -751,7 +753,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -762,7 +764,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -772,7 +774,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -784,7 +786,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -796,7 +798,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -806,7 +808,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -818,7 +820,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -830,7 +832,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 700,
@@ -840,7 +842,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -850,7 +852,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -861,7 +863,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -872,7 +874,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -883,7 +885,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -894,7 +896,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -903,10 +905,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -915,10 +917,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -929,7 +931,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -940,7 +942,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -950,7 +952,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -962,7 +964,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 250,
@@ -974,7 +976,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 750,
@@ -984,7 +986,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 200,
@@ -996,7 +998,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 150,
@@ -1008,7 +1010,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 720,
@@ -1018,7 +1020,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1028,7 +1030,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 175,
@@ -1039,7 +1041,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 400,
@@ -1050,7 +1052,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 300,
@@ -1061,7 +1063,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1072,7 +1074,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1081,10 +1083,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 220,
@@ -1093,10 +1095,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 350,
@@ -1107,7 +1109,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 780,
@@ -1118,7 +1120,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 680,
@@ -1128,7 +1130,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -1140,7 +1142,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -1152,7 +1154,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -1162,7 +1164,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 580,
@@ -1174,7 +1176,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -1186,7 +1188,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 500,
@@ -1197,7 +1199,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 500,
@@ -1208,7 +1210,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1220,7 +1222,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 110,
@@ -1232,7 +1234,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 210,
@@ -1244,7 +1246,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 300,
@@ -1256,7 +1258,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 300,
@@ -1266,10 +1268,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 290,
@@ -1279,10 +1281,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 210,
@@ -1294,7 +1296,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1306,7 +1308,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 250,
@@ -1317,7 +1319,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 250,
@@ -1330,7 +1332,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 200,
@@ -1343,7 +1345,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 170,
@@ -1354,7 +1356,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 130,
@@ -1367,7 +1369,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 120,
@@ -1380,7 +1382,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 500,
@@ -1390,7 +1392,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 500,
@@ -1400,7 +1402,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 300,
@@ -1411,7 +1413,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 340,
@@ -1422,7 +1424,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 400,
@@ -1433,7 +1435,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -1444,7 +1446,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -1453,10 +1455,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 230,
@@ -1465,10 +1467,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 230,
@@ -1479,7 +1481,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 600,
@@ -1490,7 +1492,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 410,
@@ -1500,7 +1502,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -1512,7 +1514,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 210,
@@ -1524,7 +1526,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 230,
@@ -1534,7 +1536,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 170,
@@ -1546,7 +1548,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 410,
@@ -1558,7 +1560,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1569,7 +1571,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -1580,7 +1582,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1592,7 +1594,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1604,7 +1606,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1616,7 +1618,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1628,7 +1630,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1638,10 +1640,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1651,10 +1653,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1666,7 +1668,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1678,7 +1680,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -1689,7 +1691,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -1702,7 +1704,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -1715,7 +1717,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -1726,7 +1728,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -1739,7 +1741,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -1752,7 +1754,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -1760,7 +1762,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1768,7 +1770,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -1777,7 +1779,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1786,7 +1788,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1795,7 +1797,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -1804,27 +1806,27 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
             "chords": [
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
             "chords": [
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1833,7 +1835,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1842,7 +1844,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 700,
@@ -1850,7 +1852,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -1860,7 +1862,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -1870,7 +1872,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -1878,7 +1880,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 150,
@@ -1888,7 +1890,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -1898,7 +1900,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -1907,7 +1909,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1916,7 +1918,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1926,7 +1928,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -1936,7 +1938,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1946,7 +1948,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -1956,7 +1958,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1964,10 +1966,10 @@
                 {"type": "I", "inversion": 0},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -1975,10 +1977,10 @@
                 {"type": "I", "inversion": 0},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1988,7 +1990,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -1998,7 +2000,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -2007,7 +2009,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -2018,7 +2020,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -2029,7 +2031,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -2038,7 +2040,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -2049,7 +2051,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -2060,7 +2062,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2069,7 +2071,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -2078,7 +2080,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2088,7 +2090,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2098,7 +2100,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -2108,7 +2110,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -2118,7 +2120,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -2126,10 +2128,10 @@
                 {"type": "I", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -2137,10 +2139,10 @@
                 {"type": "I", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2150,7 +2152,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2160,7 +2162,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -2169,7 +2171,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 4.1,
@@ -2180,7 +2182,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -2191,7 +2193,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -2200,7 +2202,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 130,
@@ -2211,7 +2213,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -2222,7 +2224,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2232,7 +2234,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -2242,7 +2244,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2253,7 +2255,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2264,7 +2266,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -2275,7 +2277,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -2286,7 +2288,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -2295,10 +2297,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 600,
@@ -2307,10 +2309,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2321,7 +2323,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -2332,7 +2334,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -2342,7 +2344,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -2354,7 +2356,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -2366,7 +2368,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -2376,7 +2378,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 150,
@@ -2388,7 +2390,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -2400,7 +2402,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 420,
@@ -2410,7 +2412,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 500,
@@ -2420,7 +2422,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -2431,7 +2433,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 230,
@@ -2442,7 +2444,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 340,
@@ -2453,7 +2455,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -2464,7 +2466,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 450,
@@ -2473,10 +2475,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 210,
@@ -2485,10 +2487,10 @@
                 {"type": "V", "inversion": 1},
                 {"type": "I", "inversion": 0},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 450,
@@ -2499,7 +2501,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 210,
@@ -2510,7 +2512,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 410,
@@ -2520,7 +2522,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -2532,7 +2534,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 470,
@@ -2544,7 +2546,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 410,
@@ -2554,7 +2556,7 @@
                 {"type": "I", "inversion": 0},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 220,
@@ -2566,7 +2568,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -2578,7 +2580,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 600,
@@ -2588,7 +2590,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -2598,7 +2600,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 320,
@@ -2609,7 +2611,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 230,
@@ -2620,7 +2622,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 130,
@@ -2631,7 +2633,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 180,
@@ -2642,7 +2644,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.8,
@@ -2651,10 +2653,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 230,
@@ -2663,10 +2665,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 1.5,
@@ -2677,7 +2679,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -2688,7 +2690,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 340,
@@ -2698,7 +2700,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -2710,7 +2712,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -2722,7 +2724,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -2732,7 +2734,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 200,
@@ -2744,7 +2746,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -2756,7 +2758,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },  {
             "weight": 700,
@@ -2766,7 +2768,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 650,
@@ -2776,7 +2778,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2787,7 +2789,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2798,7 +2800,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -2809,7 +2811,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -2820,7 +2822,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 340,
@@ -2829,10 +2831,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 420,
@@ -2841,10 +2843,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 430,
@@ -2855,7 +2857,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 330,
@@ -2866,7 +2868,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -2876,7 +2878,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 320,
@@ -2888,7 +2890,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 200,
@@ -2900,7 +2902,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 410,
@@ -2910,7 +2912,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -2922,7 +2924,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -2934,7 +2936,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },  {
             "weight": 700,
@@ -2945,7 +2947,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -2956,7 +2958,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2968,7 +2970,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -2980,7 +2982,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -2992,7 +2994,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -3004,7 +3006,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3014,10 +3016,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3027,10 +3029,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3042,7 +3044,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3054,7 +3056,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -3065,7 +3067,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3078,7 +3080,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3091,7 +3093,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -3102,7 +3104,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -3115,7 +3117,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -3128,7 +3130,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },  {
             "weight": 700,
@@ -3138,7 +3140,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -3148,7 +3150,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -3159,7 +3161,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -3170,7 +3172,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -3181,7 +3183,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -3192,7 +3194,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3201,10 +3203,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3213,10 +3215,10 @@
                 {"type": "IV", "inversion": -1},
                 {"type": "I", "inversion": -1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3227,7 +3229,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3238,7 +3240,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -3248,7 +3250,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3260,7 +3262,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3272,7 +3274,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -3282,7 +3284,7 @@
                 {"type": "I", "inversion": -1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -3294,7 +3296,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -3306,7 +3308,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3317,7 +3319,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 750,
@@ -3328,7 +3330,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "IV", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -3340,7 +3342,7 @@
                 {"type": "ii", "inversion": 0},
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 120,
@@ -3352,7 +3354,7 @@
                 {"type": "ii", "inversion": 1},
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -3364,7 +3366,7 @@
                 {"type": "IV", "inversion": 1},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 150,
@@ -3376,7 +3378,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3386,10 +3388,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 1},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 200,
@@ -3399,10 +3401,10 @@
                 {"type": "V", "inversion": 3},
                 {"type": "I", "inversion": 1},
                 {"type": "ii", "inversion": 0},
-                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 1}
                 {"type": "ii", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3414,7 +3416,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         }, {
             "weight": 700,
@@ -3426,7 +3428,7 @@
                 {"type": "IV", "inversion": 0},
                 {"type": "ii", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 600,
@@ -3437,7 +3439,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "vi", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3450,7 +3452,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 300,
@@ -3463,7 +3465,7 @@
                 {"type": "I", "inversion": 2},
                 {"type": "IV", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 650,
@@ -3474,7 +3476,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": -1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 100,
@@ -3487,7 +3489,7 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 1},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
         },{
             "weight": 550,
@@ -3500,8 +3502,8 @@
                 {"type": "I", "inversion": 1},
                 {"type": "ii7", "inversion": 0},
                 {"type": "V7", "inversion": 0},
-                {"type": "I", "inversion": 0}
+                {"type": "I", "inversion": 0},
             ]
-        }
+        },  
     ]
 }
