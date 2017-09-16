@@ -8,6 +8,13 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
+        },{
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inverions": 0},
+                {"type": "I", "inversion": 0},
+            ]
         }, {
             "weight": 750,
             "chords": [

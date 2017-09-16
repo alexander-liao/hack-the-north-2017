@@ -30,22 +30,25 @@ selections = 3
 
 def find(progressions, notes): # Top 3
     result = []
-    for progression in progressions:
+    for progression in progressions["progressions"]:
         score = match(progression, notes)
         if score != -1:
             chords = progression["chords"]
             result.append((score, chords, notes[:len(chords)]))
-    return sorted(result)[:selections]
+    return sorted(result, key = lambda node: node[0])[:selections]
 
 def generate(progressions, notes): # Top 3
     result = []
     for config in find(progressions, notes):
-        for right in generate(progressions, notes[len(config[1]):]):
-            score = config[0] + right[0]
-            chords = config[1] + right[1]
-            notes = config[2] + right[2]
-            result.append((score, chords, notes))
-    return sorted(result)[:selections]
+        if len(notes) == 0:
+            for right in generate(progressions, notes[len(config[1]):]):
+                score = config[0] + right[0]
+                chords = config[1] + right[1]
+                notes = config[2] + right[2]
+                result.append((score, chords, notes))
+        else:
+            result.append(config)
+    return sorted(result, key = lambda node: node[0])[:selections]
 
 print(json.dumps({
     "blocks": generate(

@@ -21,24 +21,18 @@ def process(notes):
         note.update(uuid = uuid, octaves = note["pitch"] // 12)
         note["pitch"] %= 12
         uuid += 1
-    print(notes)
-    return sorted(notes["notes"], key = lambda note: note["startTime"])
+    notes["notes"].sort(key = lambda note: note["startTime"])
+    return notes
 
 def merge(notes):
-    combos = []
-    beat = 0
+    combos = {}
     tempo = notes["tempo"]
     index = 0
     notelist = notes["notes"]
-    while beat <= notelist[-1]["startTime"]:
-        combo = []
-        while index <= len(notelist):
-            if notelist[index]["startTime"] < beat + tempo:
-                combo.append(notelist[index])
-            else:
-                beat += tempo
-                break
-        combos.append(combo)
-    return combos
+    for note in notelist:
+        beat = int(note["startTime"] / tempo)
+        if beat not in combos: combos[beat] = []
+        combos[beat].append(note)
+    return list(combos.values())
 
-print(json.dumps(process(snap(json.loads(stdin.read()))), indent = 4))
+print(json.dumps(merge(process(snap(json.loads(stdin.read())))), indent = 4))
