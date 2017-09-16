@@ -23,7 +23,7 @@ Ethan -> Alex: Notes
 
 ```javascript
 {
-    "tempo": 60, // some integer
+    "tempo": 0.5, // some float
     "key": 60, // some integer
     "notes": [
         {
