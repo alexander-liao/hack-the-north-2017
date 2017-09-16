@@ -15,7 +15,10 @@ def parse_line(line):
     # line = re.sub("  +", "^", line.decode().strip())
     parts = re.split("  +", line.decode().strip())
     evt = parts[1] # Such as `Note on`, etc
-    properties = parts[2].split(", ")[1:]
+    if len(parts) >= 3:
+        properties = parts[2].split(", ")[1:]
+    else:
+        properties = []
     properties_dict = dict()
     for prop in properties:
         properties_dict[prop[:prop.index(" ")]] = prop[prop.index(" ") + 1:]
@@ -28,5 +31,6 @@ process.stdout.readline()
 process.stdout.readline()
 
 for line in process.stdout:
-    print(json.dumps(parse_line(line)))
+    if "active sensing" not in line.decode().lower() and "clock" not in line.decode().lower():
+        print(json.dumps(parse_line(line)))
     sys.stdout.flush()
