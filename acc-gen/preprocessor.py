@@ -12,7 +12,7 @@ from chordoffsets import C, D, E, F, G, A, B
 def snap(notes):
     sixteenthnote = notes["tempo"] / 4
     for note in notes["notes"]:
-        note["startTime"] = round(note["startTime"] * sixteenthnote) / sixteenthnote
+        note["startTime"] = round(note["startTime"] / sixteenthnote) * sixteenthnote
     return notes
 
 def process(notes):
