@@ -1,0 +1,48 @@
+{
+    "key": 60,
+    "tempo": 1,
+    "notes":  [
+        {
+            "pitch": 60,
+            "velocity": 75,
+            "startTime": 0,
+            "duration": 1
+        },
+        {
+            "pitch": 60,
+            "velocity": 75,
+            "startTime": 1,
+            "duration": 1
+        },
+        {
+            "pitch": 64,
+            "velocity": 75,
+            "startTime": 2,
+            "duration": 1
+        },
+        {
+            "pitch": 64,
+            "velocity": 75,
+            "startTime": 3,
+            "duration": 1
+        },
+        {
+            "pitch": 65,
+            "velocity": 75,
+            "startTime": 4,
+            "duration": 1
+        },
+        {
+            "pitch": 65,
+            "velocity": 75,
+            "startTime": 5,
+            "duration": 1
+        },
+        {
+            "pitch": 64,
+            "velocity": 75,
+            "startTime": 6,
+            "duration": 2
+        }
+    ]
+}
