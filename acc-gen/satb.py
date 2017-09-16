@@ -27,7 +27,7 @@ def getChords(S, A, T, B, V, R):
 
 def genData(current, last):
     S = current[1]
-    print(S)
+    print(":", S["pitch"])
     return current
 
 def SATB(data):

@@ -10,9 +10,9 @@ from sys import stdin, stdout
 from chordoffsets import C, D, E, F, G, A, B
 
 def snap(notes):
-    tempo = notes["tempo"] * 4
+    sixteenthnote = notes["tempo"] / 4
     for note in notes["notes"]:
-        note["startTime"] = round(note["startTime"] * tempo) / tempo
+        note["startTime"] = round(note["startTime"] * sixteenthnote) / sixteenthnote
     return notes
 
 def process(notes):
