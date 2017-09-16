@@ -17,4 +17,7 @@ def process(notes):
         uuid += 1
     return notes
 
+def merge(notes):
+    combos = []
+
 print(json.dumps(process(json.loads(stdin.read()))))

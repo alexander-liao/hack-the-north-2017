@@ -23,6 +23,8 @@ Ethan -> Alex: Notes
 
 ```javascript
 {
+    "tempo": 60, // some integer
+    "key": 60, // some integer
     "notes": [
         {
             "pitch": 60, // some integer
@@ -49,4 +51,5 @@ Alex: Internal representation of notes in the generator
         } // This ends the definition of a note
     ] // This ends the list of notes
 } // This ends the format
+```
 ```

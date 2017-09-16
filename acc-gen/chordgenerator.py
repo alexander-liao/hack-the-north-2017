@@ -21,4 +21,6 @@ def match(progression, notes):
     )
 
 def generate(progressions, notes):
-    pass
+    index = 0
+    while index < len(notes):
+        pass
