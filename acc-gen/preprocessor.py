@@ -37,4 +37,5 @@ def merge(notes):
         combos[beat].append(note)
     return list(combos.values())
 
-print(json.dumps(merge(process(snap(json.loads(stdin.read())))), indent = 4))
+# print(json.dumps(merge(process(snap(json.loads(stdin.read())))), indent = 4))
+print(json.dumps(snap(json.loads(stdin.read())), indent = 4))
