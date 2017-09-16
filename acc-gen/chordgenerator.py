@@ -35,7 +35,7 @@ def find(progressions, notes): # Top 3
         if score != -1:
             chords = progression["chords"]
             result.append((score, chords, notes[:len(chords)]))
-    return sorted(result, key = lambda node: node[0])[:selections]
+    return sorted(result, key = lambda node: node[0])[-selections:]
 
 def generate(progressions, notes): # Top 3
     result = []
@@ -48,7 +48,7 @@ def generate(progressions, notes): # Top 3
                 result.append((score, chords, notes))
         else:
             result.append(config)
-    return sorted(result, key = lambda node: node[0])[:selections]
+    return sorted(result, key = lambda node: node[0])[-selections:]
 
 print(json.dumps({
     "blocks": generate(
