@@ -4,7 +4,7 @@ Adam -> Alex: Progressions
 
 ```javascript
 {
-    "progression": [
+    "progressions": [
         {
             "weight": 0, // some integer
             "chords": [  // list of chords
@@ -32,4 +32,21 @@ Ethan -> Alex: Notes
         } // This ends the definition of a note
     ] // This ends the list of notes
 } // This ends the input
+```
+
+Alex: Internal representation of notes in the generator
+
+```javascript
+{
+    "notes": [
+        {
+            "pitch": 0, // some integer in [0, 11]
+            "startTime": 6.5, // some float
+            "duration": 0.5, // some float
+            "velocity": 55, // some 7-bit integer
+            "octave": 1, // some integer; number of octaves removed
+            "uuid": 1 // index in this list
+        } // This ends the definition of a note
+    ] // This ends the list of notes
+} // This ends the format
 ```
