@@ -1,9 +1,34 @@
 {
     "progressions": [
         {
-            "weight": 0,
+            "weight": 100,
             "chords": [
                 {"type": "I", "inversion": -1}
+            ]
+        }, {
+            "weight": 30,
+            "chords": [
+                {"type": "ii", "inversion": -1}
+            ]
+        }, {
+            "weight": 30,
+            "chords": [
+                {"type": "iii", "inversion": -1}
+            ]
+        }, {
+            "weight": 80,
+            "chords": [
+                {"type": "IV", "inversion": -1}
+            ]
+        }, {
+            "weight": 100,
+            "chords": [
+                {"type": "V", "inversion": -1}
+            ]
+        }, {
+            "weight": 30,
+            "chords": [
+                {"type": "vi", "inversion": -1}
             ]
         }, {
             "weight": 700,

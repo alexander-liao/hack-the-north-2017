@@ -7,6 +7,7 @@
 
 import json
 from sys import stdin, stdout
+from chordoffsets import C, D, E, F, G, A, B
 
 def snap(notes):
     tempo = notes["tempo"] * 4
@@ -22,6 +23,7 @@ def process(notes):
         note["pitch"] %= 12
         uuid += 1
     notes["notes"].sort(key = lambda note: note["startTime"])
+    notes["notes"] = list(filter(lambda note: note["pitch"] in [C, D, E, F, G, A, B], notes["notes"]))
     return notes
 
 def merge(notes):
