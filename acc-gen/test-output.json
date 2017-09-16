@@ -1,176 +1,160 @@
 [
     [
         {
+            "type": "Note on",
+            "pitch": 0,
             "startTime": 0.0,
-            "endTime": 0.367,
-            "octaves": 0,
-            "uuid": 0,
-            "type": "Note on",
-            "pitch": 0,
             "duration": 0.367,
-            "note": "60",
-            "velocity": 78
-        }
-    ],
-    [
-        {
-            "startTime": 0.7668711656441718,
-            "endTime": 1.044,
+            "endTime": 0.367,
+            "uuid": 0,
             "octaves": 0,
-            "uuid": 1,
-            "type": "Note on",
-            "pitch": 0,
-            "duration": 0.392,
             "note": "60",
             "velocity": 78
         },
         {
-            "startTime": 1.1503067484662577,
-            "endTime": 1.662,
+            "type": "Note on",
+            "pitch": 0,
+            "startTime": 0.0,
+            "duration": 0.392,
+            "endTime": 1.044,
+            "uuid": 1,
             "octaves": 0,
-            "uuid": 2,
+            "note": "60",
+            "velocity": 78
+        },
+        {
             "type": "Note on",
             "pitch": 7,
+            "startTime": 0.0,
             "duration": 0.34299999999999997,
+            "endTime": 1.662,
+            "uuid": 2,
+            "octaves": 0,
             "note": "67",
             "velocity": 83
-        }
-    ],
-    [
+        },
         {
-            "startTime": 1.9171779141104295,
-            "endTime": 2.368,
-            "octaves": 0,
-            "uuid": 3,
             "type": "Note on",
             "pitch": 7,
+            "startTime": 0.0,
             "duration": 0.4039999999999999,
+            "endTime": 2.368,
+            "uuid": 3,
+            "octaves": 0,
             "note": "67",
             "velocity": 83
-        }
-    ],
-    [
+        },
         {
-            "startTime": 2.684049079754601,
-            "endTime": 2.979,
-            "octaves": 0,
-            "uuid": 4,
             "type": "Note on",
             "pitch": 9,
+            "startTime": 0.0,
             "duration": 0.3200000000000003,
+            "endTime": 2.979,
+            "uuid": 4,
+            "octaves": 0,
             "note": "69",
             "velocity": 87
         }
     ],
     [
         {
-            "startTime": 3.450920245398773,
-            "endTime": 3.671,
-            "octaves": 0,
-            "uuid": 5,
             "type": "Note on",
             "pitch": 9,
+            "startTime": 6.134969325153374,
             "duration": 0.399,
+            "endTime": 3.671,
+            "uuid": 5,
+            "octaves": 0,
             "note": "69",
             "velocity": 77
         },
         {
-            "startTime": 3.834355828220859,
-            "endTime": 5.181,
-            "octaves": 0,
-            "uuid": 6,
             "type": "Note on",
             "pitch": 7,
+            "startTime": 6.134969325153374,
             "duration": 1.2349999999999999,
+            "endTime": 5.181,
+            "uuid": 6,
+            "octaves": 0,
             "note": "67",
             "velocity": 85
-        }
-    ],
-    [
+        },
         {
-            "startTime": 5.368098159509202,
-            "endTime": 5.669,
-            "octaves": 0,
-            "uuid": 7,
             "type": "Note on",
             "pitch": 5,
+            "startTime": 6.134969325153374,
             "duration": 0.35799999999999965,
+            "endTime": 5.669,
+            "uuid": 7,
+            "octaves": 0,
             "note": "65",
             "velocity": 80
-        }
-    ],
-    [
+        },
         {
-            "startTime": 6.134969325153374,
-            "endTime": 6.427,
-            "octaves": 0,
-            "uuid": 8,
             "type": "Note on",
             "pitch": 5,
+            "startTime": 6.134969325153374,
             "duration": 0.4449999999999994,
+            "endTime": 6.427,
+            "uuid": 8,
+            "octaves": 0,
             "note": "65",
             "velocity": 78
         },
         {
-            "startTime": 6.51840490797546,
-            "endTime": 7.047,
-            "octaves": 0,
-            "uuid": 9,
             "type": "Note on",
             "pitch": 4,
+            "startTime": 6.134969325153374,
             "duration": 0.38099999999999934,
+            "endTime": 7.047,
+            "uuid": 9,
+            "octaves": 0,
             "note": "64",
             "velocity": 78
-        }
-    ],
-    [
+        },
         {
-            "startTime": 7.285276073619632,
-            "endTime": 7.723,
-            "octaves": 0,
-            "uuid": 10,
             "type": "Note on",
             "pitch": 4,
+            "startTime": 6.134969325153374,
             "duration": 0.4109999999999996,
+            "endTime": 7.723,
+            "uuid": 10,
+            "octaves": 0,
             "note": "64",
             "velocity": 70
-        }
-    ],
-    [
+        },
         {
-            "startTime": 8.052147239263803,
-            "endTime": 8.386,
-            "octaves": 0,
-            "uuid": 11,
             "type": "Note on",
             "pitch": 2,
+            "startTime": 6.134969325153374,
             "duration": 0.41999999999999904,
+            "endTime": 8.386,
+            "uuid": 11,
+            "octaves": 0,
             "note": "62",
             "velocity": 70
-        }
-    ],
-    [
+        },
         {
-            "startTime": 8.819018404907975,
-            "endTime": 9.035,
-            "octaves": 0,
-            "uuid": 12,
             "type": "Note on",
             "pitch": 2,
+            "startTime": 6.134969325153374,
             "duration": 0.37400000000000055,
+            "endTime": 9.035,
+            "uuid": 12,
+            "octaves": 0,
             "note": "62",
             "velocity": 81
         }
     ],
     [
         {
-            "startTime": 9.202453987730062,
-            "endTime": 10.274,
-            "octaves": 0,
-            "uuid": 13,
             "type": "Note on",
             "pitch": 0,
+            "startTime": 12.269938650306749,
             "duration": 0.9529999999999994,
+            "endTime": 10.274,
+            "uuid": 13,
+            "octaves": 0,
             "note": "60",
             "velocity": 69
         }
