@@ -1,0 +1,3501 @@
+{
+    "progressions": [
+        {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - I6*/ {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 2,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 2,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 2,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.8,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.8,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.8,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.5,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.5,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 2,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I6 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I - V6 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I6 - V6 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I - IV - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                 {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 250,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - V65 - I*/ {
+            "weight": 720,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 175,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 400,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 220,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 350,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 780,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 680,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 580,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - ii42 - V6- I6*/ {
+            "weight": 500,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 500,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 110,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 210,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 290,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 210,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 250,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 250,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 170,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 130,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - V65 - I*/ {
+            "weight": 500,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 500,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 340,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 400,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 230,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 230,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 410,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 210,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 230,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 170,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 410,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - ii65 - V42- I6*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - I6*/ {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I6 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 4.1,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 130,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I - V6 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I6 - V6 - I*/ {
+            "weight": 420,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 500,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 230,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 340,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 450,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 210,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 450,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 210,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 410,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 470,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 410,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 220,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 1},
+                {"type": "V", "inversion": 1},
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },/* I - IV - I*/ {
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 230,
+            "chords": [
+                 {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 130,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 180,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.8,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 230,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 1.5,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 340,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - V65 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 340,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 420,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 430,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 330,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 320,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 410,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - ii42 - V6- I6*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - V65 - I*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": -1},
+                {"type": "IV", "inversion": -1},
+                {"type": "I", "inversion": -1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, /* I - ii65 - V42- I6*/ {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 750,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 120,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 150,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 1},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 200,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii", "inversion": 0},
+                {"type": "I", "inversion": 1}
+                {"type": "ii", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        }, {
+            "weight": 700,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "ii", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 600,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "vi", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 0},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 300,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "IV", "inversion": 1},
+                {"type": "I", "inversion": 2},
+                {"type": "IV", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 650,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": -1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 100,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },{
+            "weight": 550,
+            "chords": [
+                {"type": "I", "inversion": 0},
+                {"type": "ii7", "inversion": 1},
+                {"type": "V7", "inversion": 3},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 1},
+                {"type": "I", "inversion": 1},
+                {"type": "ii7", "inversion": 0},
+                {"type": "V7", "inversion": 0},
+                {"type": "I", "inversion": 0},
+            ]
+        },  
+    ]
+}
