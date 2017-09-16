@@ -16,12 +16,20 @@ Adam -> Alex: Progressions
             ], // This ends the list of chords
         }, // This ends the definition of a progression
     ], // This ends the list of progressions
+} // This ends the constant file data
+```
+
+Ethan -> Alex: Notes
+
+```javascript
+{
     "notes": [
         {
             "pitch": 60, // some integer
             "startTime": 6.5, // some float
-            // TODO
-        }
-    ]
+            "duration": 0.5, // some float
+            "velocity": 55 // some 7-bit integer
+        } // This ends the definition of a note
+    ] // This ends the list of notes
 } // This ends the input
 ```

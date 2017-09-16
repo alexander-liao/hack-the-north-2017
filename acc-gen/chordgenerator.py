@@ -5,3 +5,6 @@
 # See /data-formats.md
 
 import json
+
+def match(progression, notes):
+    pass # TODO
