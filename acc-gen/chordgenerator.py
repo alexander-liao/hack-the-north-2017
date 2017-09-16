@@ -1,10 +1,10 @@
 # Chord Generator - Alexander Liao
-# This will take dict input input (JSON format) for the completed melody and the
-# list of prefabricated progressions
+# This will take dict input (JSON format) for the completed melody and the list
+# of prefabricated progressions
 
 # See /data-formats.md
 
-# `python3 preprocessor.py` -> `python3 satb.py`
+# `python3 preprocessor.py` -> `python3 interprocessor.py`
 
 import json
 from chordoffsets import *
@@ -40,7 +40,7 @@ def find(progressions, notes): # Top 3
 def generate(progressions, notes): # Top 3
     result = []
     for config in find(progressions, notes):
-        if len(notes) == 0:
+        if len(notes) > len(config[1]):
             for right in generate(progressions, notes[len(config[1]):]):
                 score = config[0] + right[0]
                 chords = config[1] + right[1]

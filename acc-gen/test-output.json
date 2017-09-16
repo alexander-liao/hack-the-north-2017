@@ -1,0 +1,769 @@
+{
+    "blocks": [
+        {
+            "score": 27820.0,
+            "chords": [
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 0.367,
+                            "note": "60",
+                            "startTime": 0.0,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 0,
+                            "octaves": 0,
+                            "duration": 0.367
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.044,
+                            "note": "60",
+                            "startTime": 0.7496251874062968,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 1,
+                            "octaves": 0,
+                            "duration": 0.392
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.662,
+                            "note": "67",
+                            "startTime": 1.4992503748125936,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 2,
+                            "octaves": 0,
+                            "duration": 0.34299999999999997
+                        },
+                        {
+                            "endTime": 2.368,
+                            "note": "67",
+                            "startTime": 1.874062968515742,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 3,
+                            "octaves": 0,
+                            "duration": 0.4039999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 2.979,
+                            "note": "69",
+                            "startTime": 2.623688155922039,
+                            "velocity": 87,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 4,
+                            "octaves": 0,
+                            "duration": 0.3200000000000003
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 3.671,
+                            "note": "69",
+                            "startTime": 3.3733133433283355,
+                            "velocity": 77,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 5,
+                            "octaves": 0,
+                            "duration": 0.399
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.181,
+                            "note": "67",
+                            "startTime": 4.122938530734633,
+                            "velocity": 85,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 6,
+                            "octaves": 0,
+                            "duration": 1.2349999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.669,
+                            "note": "65",
+                            "startTime": 5.247376311844078,
+                            "velocity": 80,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 7,
+                            "octaves": 0,
+                            "duration": 0.35799999999999965
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 1
+                    },
+                    [
+                        {
+                            "endTime": 6.427,
+                            "note": "65",
+                            "startTime": 5.997001499250374,
+                            "velocity": 78,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 8,
+                            "octaves": 0,
+                            "duration": 0.4449999999999994
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 7.047,
+                            "note": "64",
+                            "startTime": 6.746626686656671,
+                            "velocity": 78,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 9,
+                            "octaves": 0,
+                            "duration": 0.38099999999999934
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii7",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 7.723,
+                            "note": "64",
+                            "startTime": 7.496251874062968,
+                            "velocity": 70,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 10,
+                            "octaves": 0,
+                            "duration": 0.4109999999999996
+                        },
+                        {
+                            "endTime": 8.386,
+                            "note": "62",
+                            "startTime": 7.871064467766116,
+                            "velocity": 70,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 11,
+                            "octaves": 0,
+                            "duration": 0.41999999999999904
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V7",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 9.035,
+                            "note": "62",
+                            "startTime": 8.620689655172413,
+                            "velocity": 81,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 12,
+                            "octaves": 0,
+                            "duration": 0.37400000000000055
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 10.274,
+                            "note": "60",
+                            "startTime": 9.37031484257871,
+                            "velocity": 69,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 13,
+                            "octaves": 0,
+                            "duration": 0.9529999999999994
+                        }
+                    ]
+                ]
+            ]
+        },
+        {
+            "score": 28520.0,
+            "chords": [
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 0.367,
+                            "note": "60",
+                            "startTime": 0.0,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 0,
+                            "octaves": 0,
+                            "duration": 0.367
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.044,
+                            "note": "60",
+                            "startTime": 0.7496251874062968,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 1,
+                            "octaves": 0,
+                            "duration": 0.392
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.662,
+                            "note": "67",
+                            "startTime": 1.4992503748125936,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 2,
+                            "octaves": 0,
+                            "duration": 0.34299999999999997
+                        },
+                        {
+                            "endTime": 2.368,
+                            "note": "67",
+                            "startTime": 1.874062968515742,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 3,
+                            "octaves": 0,
+                            "duration": 0.4039999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 2.979,
+                            "note": "69",
+                            "startTime": 2.623688155922039,
+                            "velocity": 87,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 4,
+                            "octaves": 0,
+                            "duration": 0.3200000000000003
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 3.671,
+                            "note": "69",
+                            "startTime": 3.3733133433283355,
+                            "velocity": 77,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 5,
+                            "octaves": 0,
+                            "duration": 0.399
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.181,
+                            "note": "67",
+                            "startTime": 4.122938530734633,
+                            "velocity": 85,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 6,
+                            "octaves": 0,
+                            "duration": 1.2349999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.669,
+                            "note": "65",
+                            "startTime": 5.247376311844078,
+                            "velocity": 80,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 7,
+                            "octaves": 0,
+                            "duration": 0.35799999999999965
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 1
+                    },
+                    [
+                        {
+                            "endTime": 6.427,
+                            "note": "65",
+                            "startTime": 5.997001499250374,
+                            "velocity": 78,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 8,
+                            "octaves": 0,
+                            "duration": 0.4449999999999994
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 7.047,
+                            "note": "64",
+                            "startTime": 6.746626686656671,
+                            "velocity": 78,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 9,
+                            "octaves": 0,
+                            "duration": 0.38099999999999934
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 7.723,
+                            "note": "64",
+                            "startTime": 7.496251874062968,
+                            "velocity": 70,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 10,
+                            "octaves": 0,
+                            "duration": 0.4109999999999996
+                        },
+                        {
+                            "endTime": 8.386,
+                            "note": "62",
+                            "startTime": 7.871064467766116,
+                            "velocity": 70,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 11,
+                            "octaves": 0,
+                            "duration": 0.41999999999999904
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 9.035,
+                            "note": "62",
+                            "startTime": 8.620689655172413,
+                            "velocity": 81,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 12,
+                            "octaves": 0,
+                            "duration": 0.37400000000000055
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 10.274,
+                            "note": "60",
+                            "startTime": 9.37031484257871,
+                            "velocity": 69,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 13,
+                            "octaves": 0,
+                            "duration": 0.9529999999999994
+                        }
+                    ]
+                ]
+            ]
+        },
+        {
+            "score": 28520.0,
+            "chords": [
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 0.367,
+                            "note": "60",
+                            "startTime": 0.0,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 0,
+                            "octaves": 0,
+                            "duration": 0.367
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.044,
+                            "note": "60",
+                            "startTime": 0.7496251874062968,
+                            "velocity": 78,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 1,
+                            "octaves": 0,
+                            "duration": 0.392
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 1.662,
+                            "note": "67",
+                            "startTime": 1.4992503748125936,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 2,
+                            "octaves": 0,
+                            "duration": 0.34299999999999997
+                        },
+                        {
+                            "endTime": 2.368,
+                            "note": "67",
+                            "startTime": 1.874062968515742,
+                            "velocity": 83,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 3,
+                            "octaves": 0,
+                            "duration": 0.4039999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "IV",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 2.979,
+                            "note": "69",
+                            "startTime": 2.623688155922039,
+                            "velocity": 87,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 4,
+                            "octaves": 0,
+                            "duration": 0.3200000000000003
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 3.671,
+                            "note": "69",
+                            "startTime": 3.3733133433283355,
+                            "velocity": 77,
+                            "pitch": 9,
+                            "type": "Note on",
+                            "uuid": 5,
+                            "octaves": 0,
+                            "duration": 0.399
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.181,
+                            "note": "67",
+                            "startTime": 4.122938530734633,
+                            "velocity": 85,
+                            "pitch": 7,
+                            "type": "Note on",
+                            "uuid": 6,
+                            "octaves": 0,
+                            "duration": 1.2349999999999999
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 5.669,
+                            "note": "65",
+                            "startTime": 5.247376311844078,
+                            "velocity": 80,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 7,
+                            "octaves": 0,
+                            "duration": 0.35799999999999965
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 1
+                    },
+                    [
+                        {
+                            "endTime": 6.427,
+                            "note": "65",
+                            "startTime": 5.997001499250374,
+                            "velocity": 78,
+                            "pitch": 5,
+                            "type": "Note on",
+                            "uuid": 8,
+                            "octaves": 0,
+                            "duration": 0.4449999999999994
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 7.047,
+                            "note": "64",
+                            "startTime": 6.746626686656671,
+                            "velocity": 78,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 9,
+                            "octaves": 0,
+                            "duration": 0.38099999999999934
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "ii",
+                        "inversion": -1
+                    },
+                    [
+                        {
+                            "endTime": 7.723,
+                            "note": "64",
+                            "startTime": 7.496251874062968,
+                            "velocity": 70,
+                            "pitch": 4,
+                            "type": "Note on",
+                            "uuid": 10,
+                            "octaves": 0,
+                            "duration": 0.4109999999999996
+                        },
+                        {
+                            "endTime": 8.386,
+                            "note": "62",
+                            "startTime": 7.871064467766116,
+                            "velocity": 70,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 11,
+                            "octaves": 0,
+                            "duration": 0.41999999999999904
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "V7",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 9.035,
+                            "note": "62",
+                            "startTime": 8.620689655172413,
+                            "velocity": 81,
+                            "pitch": 2,
+                            "type": "Note on",
+                            "uuid": 12,
+                            "octaves": 0,
+                            "duration": 0.37400000000000055
+                        }
+                    ]
+                ],
+                [
+                    {
+                        "type": "I",
+                        "inversion": 0
+                    },
+                    [
+                        {
+                            "endTime": 10.274,
+                            "note": "60",
+                            "startTime": 9.37031484257871,
+                            "velocity": 69,
+                            "pitch": 0,
+                            "type": "Note on",
+                            "uuid": 13,
+                            "octaves": 0,
+                            "duration": 0.9529999999999994
+                        }
+                    ]
+                ]
+            ]
+        }
+    ]
+}
