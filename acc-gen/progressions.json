@@ -146,7 +146,8 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - I6*/ {
+        }, {
+            "comment": "I - I6",
             "weight": 650,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -308,7 +309,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I6 - I*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 1},
@@ -470,7 +471,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I - V6 - I*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -648,7 +649,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I6 - V6 - I*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 1},
@@ -826,7 +827,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I - IV - I*/ {
+        },{
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -1004,7 +1005,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - V65 - I*/ {
+        }, {
             "weight": 720,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -1182,7 +1183,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - ii42 - V6- I6*/ {
+        },{
             "weight": 500,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -1376,7 +1377,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - V65 - I*/ {
+        }, {
             "weight": 500,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -1554,7 +1555,7 @@
                 {"type": "V", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - ii65 - V42- I6*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -1894,7 +1895,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - I6*/ {
+        }, {
             "weight": 650,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -2056,7 +2057,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I6 - I*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 1},
@@ -2218,7 +2219,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I - V6 - I*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -2396,7 +2397,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I6 - V6 - I*/ {
+        }, {
             "weight": 420,
             "chords": [
                 {"type": "I", "inversion": 1},
@@ -2574,7 +2575,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        },/* I - IV - I*/ {
+        }, {
             "weight": 600,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -2752,7 +2753,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - V65 - I*/ {
+        },  {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -2930,7 +2931,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - ii42 - V6- I6*/ {
+        },  {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
@@ -3124,7 +3125,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - V65 - I*/ {
+        },  {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": -1},
@@ -3302,7 +3303,7 @@
                 {"type": "V7", "inversion": 0},
                 {"type": "I", "inversion": 0},
             ]
-        }, /* I - ii65 - V42- I6*/ {
+        }, {
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
