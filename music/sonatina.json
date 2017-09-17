@@ -1,0 +1,330 @@
+{
+    "key": 60,
+    "tempo": 0.494,
+    "notes": [
+        {
+            "velocity": 74,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 0,
+            "duration": 0.232,
+            "endTime": 0.232
+        },
+        {
+            "velocity": 68,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 0.494,
+            "duration": 0.16900000000000004,
+            "endTime": 0.663
+        },
+        {
+            "velocity": 65,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 0.994,
+            "duration": 0.15399999999999991,
+            "endTime": 1.148
+        },
+        {
+            "velocity": 75,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 1.501,
+            "duration": 0.0970000000000002,
+            "endTime": 1.598
+        },
+        {
+            "velocity": 82,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 2.003,
+            "duration": 1.0219999999999998,
+            "endTime": 3.025
+        },
+        {
+            "velocity": 94,
+            "type": "Note on",
+            "note": "76",
+            "pitch": 76,
+            "startTime": 2.988,
+            "duration": 0.996,
+            "endTime": 3.984
+        },
+        {
+            "velocity": 83,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 4.015,
+            "duration": 1.0750000000000002,
+            "endTime": 5.09
+        },
+        {
+            "velocity": 75,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 5.266,
+            "duration": 0.07500000000000018,
+            "endTime": 5.341
+        },
+        {
+            "velocity": 78,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 5.504,
+            "duration": 0.08500000000000085,
+            "endTime": 5.589
+        },
+        {
+            "velocity": 80,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 5.728,
+            "duration": 0.08000000000000007,
+            "endTime": 5.808
+        },
+        {
+            "velocity": 103,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 5.965,
+            "duration": 0.569,
+            "endTime": 6.534
+        },
+        {
+            "velocity": 92,
+            "type": "Note on",
+            "note": "84",
+            "pitch": 84,
+            "startTime": 6.46,
+            "duration": 0.5549999999999997,
+            "endTime": 7.015
+        },
+        {
+            "velocity": 96,
+            "type": "Note on",
+            "note": "88",
+            "pitch": 88,
+            "startTime": 6.945,
+            "duration": 0.8729999999999993,
+            "endTime": 7.818
+        },
+        {
+            "velocity": 70,
+            "type": "Note on",
+            "note": "84",
+            "pitch": 84,
+            "startTime": 7.732,
+            "duration": 0.1280000000000001,
+            "endTime": 7.86
+        },
+        {
+            "velocity": 92,
+            "type": "Note on",
+            "note": "84",
+            "pitch": 84,
+            "startTime": 7.979,
+            "duration": 1.056,
+            "endTime": 9.035
+        },
+        {
+            "velocity": 90,
+            "type": "Note on",
+            "note": "83",
+            "pitch": 83,
+            "startTime": 8.974,
+            "duration": 0.5990000000000002,
+            "endTime": 9.573
+        },
+        {
+            "velocity": 72,
+            "type": "Note on",
+            "note": "83",
+            "pitch": 83,
+            "startTime": 9.753,
+            "duration": 0.3089999999999993,
+            "endTime": 10.062
+        },
+        {
+            "velocity": 95,
+            "type": "Note on",
+            "note": "86",
+            "pitch": 86,
+            "startTime": 10.005,
+            "duration": 1.0749999999999993,
+            "endTime": 11.08
+        },
+        {
+            "velocity": 86,
+            "type": "Note on",
+            "note": "77",
+            "pitch": 77,
+            "startTime": 11.02,
+            "duration": 0.5099999999999998,
+            "endTime": 11.53
+        },
+        {
+            "velocity": 73,
+            "type": "Note on",
+            "note": "77",
+            "pitch": 77,
+            "startTime": 11.77,
+            "duration": 0.3130000000000006,
+            "endTime": 12.083
+        },
+        {
+            "velocity": 88,
+            "type": "Note on",
+            "note": "76",
+            "pitch": 76,
+            "startTime": 12.012,
+            "duration": 0.9339999999999993,
+            "endTime": 12.946
+        },
+        {
+            "velocity": 87,
+            "type": "Note on",
+            "note": "79",
+            "pitch": 79,
+            "startTime": 13.008,
+            "duration": 0.7080000000000002,
+            "endTime": 13.716
+        },
+        {
+            "velocity": 62,
+            "type": "Note on",
+            "note": "76",
+            "pitch": 76,
+            "startTime": 13.795,
+            "duration": 0.1639999999999997,
+            "endTime": 13.959
+        },
+        {
+            "velocity": 77,
+            "type": "Note on",
+            "note": "73",
+            "pitch": 73,
+            "startTime": 14.018,
+            "duration": 0.17300000000000004,
+            "endTime": 14.191
+        },
+        {
+            "velocity": 59,
+            "type": "Note on",
+            "note": "74",
+            "pitch": 74,
+            "startTime": 14.241,
+            "duration": 0.25900000000000034,
+            "endTime": 14.5
+        },
+        {
+            "velocity": 76,
+            "type": "Note on",
+            "note": "77",
+            "pitch": 77,
+            "startTime": 14.479,
+            "duration": 0.27500000000000036,
+            "endTime": 14.754
+        },
+        {
+            "velocity": 60,
+            "type": "Note on",
+            "note": "76",
+            "pitch": 76,
+            "startTime": 14.714,
+            "duration": 0.3360000000000003,
+            "endTime": 15.05
+        },
+        {
+            "velocity": 70,
+            "type": "Note on",
+            "note": "74",
+            "pitch": 74,
+            "startTime": 14.959,
+            "duration": 0.2550000000000008,
+            "endTime": 15.214
+        },
+        {
+            "velocity": 58,
+            "type": "Note on",
+            "note": "81",
+            "pitch": 81,
+            "startTime": 15.202,
+            "duration": 0.36400000000000077,
+            "endTime": 15.566
+        },
+        {
+            "velocity": 78,
+            "type": "Note on",
+            "note": "77",
+            "pitch": 77,
+            "startTime": 15.445,
+            "duration": 0.238999999999999,
+            "endTime": 15.684
+        },
+        {
+            "velocity": 53,
+            "type": "Note on",
+            "note": "74",
+            "pitch": 74,
+            "startTime": 15.696,
+            "duration": 0.19599999999999973,
+            "endTime": 15.892
+        },
+        {
+            "velocity": 73,
+            "type": "Note on",
+            "note": "72",
+            "pitch": 72,
+            "startTime": 15.951,
+            "duration": 0.2539999999999978,
+            "endTime": 16.205
+        },
+        {
+            "velocity": 50,
+            "type": "Note on",
+            "note": "71",
+            "pitch": 71,
+            "startTime": 16.193,
+            "duration": 0.29499999999999815,
+            "endTime": 16.488
+        },
+        {
+            "velocity": 88,
+            "type": "Note on",
+            "note": "74",
+            "pitch": 74,
+            "startTime": 16.443,
+            "duration": 0.2619999999999969,
+            "endTime": 16.705
+        },
+        {
+            "velocity": 56,
+            "type": "Note on",
+            "note": "71",
+            "pitch": 71,
+            "startTime": 16.708,
+            "duration": 0.34800000000000253,
+            "endTime": 17.056
+        },
+        {
+            "velocity": 77,
+            "type": "Note on",
+            "note": "67",
+            "pitch": 67,
+            "startTime": 16.986,
+            "duration": 0.536999999999999,
+            "endTime": 17.523
+        }
+    ]
+}
