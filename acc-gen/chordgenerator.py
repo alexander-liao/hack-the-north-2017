@@ -8,7 +8,7 @@
 
 import json
 from chordoffsets import *
-from sys import stdin
+from sys import stdin, argv
 
 def equal(block1, block2):
     if block2 == None:
@@ -32,7 +32,7 @@ def match(progression, notes):
         inner = 0
         for note in block:
             if note["pitch"] in chord[0]:
-                inner += 2
+                inner += 8
             elif note["pitch"] in chord[1]:
                 inner -= 4
             else:
@@ -45,7 +45,7 @@ def match(progression, notes):
         last = block
     if len(notes) == bindex and chords[-1]["type"] != "I":
         return -1
-    return progression["weight"] + weight * 10
+    return progression["weight"] + weight * 25
 
 selections = 1
 
@@ -76,7 +76,7 @@ path = os.path.dirname(__file__)
 
 print(json.dumps({
     "blocks": generate(
-        json.loads(open(path + "/prog-new.json", "r").read()),
+        json.loads(open(path + "/" + argv[1] + ".json", "r").read()),
         json.loads(stdin.read())
     )
 }, indent = 4))

@@ -27,6 +27,11 @@ def getChords(S, A, T, B, V, R):
 
 def score(chorddata, chord, last):
     points = len(set(chord))
+    if last != None:
+        for i in range(min(len(chord), len(last))):
+            interval = (chord[i] - last[i]) % 12
+            interval = min(abs(12 - interval), abs(interval)) % 12
+            points += 12 - interval
     if chord[-1] == data[chorddata["type"]][0][0]:
         points *= 2
     return points
