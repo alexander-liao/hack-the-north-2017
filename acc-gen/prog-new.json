@@ -5,6 +5,67 @@
                 {
                     "type": "I",
                     "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "IV",
+                    "inversion": -1
+                },
+                {
+                    "type": "IV",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "IV",
+                    "inversion": -1
+                },
+                {
+                    "type": "IV",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                },
+                {
+                    "type": "V7",
+                    "inversion": -1
+                },
+                {
+                    "type": "V7",
+                    "inversion": -1
+                },
+                {
+                    "type": "I",
+                    "inversion": -1
+                }
+            ],
+            "weight": 100000000
+        },
+        {
+            "chords": [
+                {
+                    "type": "I",
+                    "inversion": -1
                 }
             ],
             "weight": 0

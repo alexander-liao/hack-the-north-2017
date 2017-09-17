@@ -45,7 +45,7 @@ def match(progression, notes):
         last = block
     if len(notes) == bindex and chords[-1]["type"] != "I":
         return -1
-    return progression["weight"] * weight
+    return progression["weight"] + weight * 10
 
 selections = 1
 
