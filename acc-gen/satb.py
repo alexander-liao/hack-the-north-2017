@@ -56,7 +56,7 @@ def SATB(data):
         for note in active_notes:
             note["pitch"] += note["octaves"] * 12
             note["pitch"] += note["key"]
-            harmony[-1] = [pitch + note["key"] - 12 for pitch in harmony[-1]]
+            harmony[-1] = [pitch % 12 + note["key"] - 12 for pitch in harmony[-1]]
         harmony[-1] = [{
             "velocity": int(active_notes[0]["velocity"] * 0.75),
             "duration": active_notes[-1]["duration"] + active_notes[-1]["startTime"] - active_notes[0]["startTime"],

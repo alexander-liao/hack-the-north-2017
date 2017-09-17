@@ -13,8 +13,8 @@ while(true) {
     if(line == null) {
         break;
     }
-    java.lang.System.out.println("Line " + line.trim());
     var data = JSON.parse(line);
+    java.lang.System.out.println(data["velocity"] ? ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"][data["pitch"] % 12] : "--");
     if(data["type"].toLowerCase() == "note on") {
         channels[0].noteOn(data["pitch"], data["velocity"]);
     } else if(data["type"].toLowerCase() == "note off") {
