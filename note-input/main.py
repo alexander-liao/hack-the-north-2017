@@ -2,6 +2,10 @@ import subprocess
 import sys
 import re
 import json
+import os
+import requests
+
+requests.get("http://localhost:5000/recorder/set_killee_process?pid=%s" % os.getpid())
 
 try:
     port = int(sys.argv[-1])
@@ -29,6 +33,8 @@ def parse_line(line):
 
 process.stdout.readline()
 process.stdout.readline()
+
+# print(json.dumps(pid=os.getpid(), type="pid_headsup"))
 
 for line in process.stdout:
     if "active sensing" not in line.decode().lower() and "clock" not in line.decode().lower():
