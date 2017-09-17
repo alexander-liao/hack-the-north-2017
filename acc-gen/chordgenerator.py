@@ -50,9 +50,12 @@ def generate(progressions, notes): # Top 3
             result.append(config)
     return sorted(result, key = lambda node: node[0])[-selections:]
 
+import os
+path = os.path.dirname(__file__)
+
 print(json.dumps({
     "blocks": generate(
-        json.loads(open("progressions.json", "r").read()),
+        json.loads(open(path + "/progressions.json", "r").read()),
         json.loads(stdin.read())
     )
 }, indent = 4))
