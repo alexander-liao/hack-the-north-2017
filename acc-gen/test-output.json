@@ -1,424 +1,454 @@
 {
     "notes": [
         {
-            "velocity": 70,
-            "duration": 0.367,
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 55,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 59,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 52,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
             "pitch": 60,
-            "startTime": 0.0
+            "key": 60,
+            "uuid": 0,
+            "startTime": 0.0,
+            "endTime": 1,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
         },
         {
-            "velocity": 70,
-            "duration": 0.367,
-            "pitch": 64,
-            "startTime": 0.0
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
         },
         {
-            "velocity": 70,
-            "duration": 0.367,
-            "pitch": 67,
-            "startTime": 0.0
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
         },
         {
-            "velocity": 70,
-            "duration": 0.367,
-            "pitch": 60,
-            "startTime": 0.0
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 100,
+            "duration": 1.0
         },
         {
-            "duration": 0.367,
-            "velocity": 78,
-            "pitch": 60,
-            "startTime": 0.0
-        },
-        {
-            "velocity": 70,
-            "duration": 0.392,
-            "pitch": 60,
-            "startTime": 0.652
-        },
-        {
-            "velocity": 70,
-            "duration": 0.392,
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
             "pitch": 62,
-            "startTime": 0.652
+            "key": 60,
+            "uuid": 1,
+            "startTime": 1.0,
+            "endTime": 1.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 70,
-            "duration": 0.392,
-            "pitch": 69,
-            "startTime": 0.652
-        },
-        {
-            "velocity": 70,
-            "duration": 0.392,
-            "pitch": 65,
-            "startTime": 0.652
-        },
-        {
-            "duration": 0.392,
-            "velocity": 78,
-            "pitch": 60,
-            "startTime": 0.652
-        },
-        {
-            "velocity": 74,
-            "duration": 0.34299999999999997,
-            "pitch": 67,
-            "startTime": 1.304
-        },
-        {
-            "velocity": 74,
-            "duration": 0.34299999999999997,
-            "pitch": 71,
-            "startTime": 1.304
-        },
-        {
-            "velocity": 74,
-            "duration": 0.34299999999999997,
-            "pitch": 62,
-            "startTime": 1.304
-        },
-        {
-            "velocity": 74,
-            "duration": 0.34299999999999997,
-            "pitch": 67,
-            "startTime": 1.304
-        },
-        {
-            "duration": 0.34299999999999997,
-            "velocity": 83,
-            "pitch": 67,
-            "startTime": 1.304
-        },
-        {
-            "velocity": 74,
-            "duration": 0.4039999999999999,
-            "pitch": 67,
-            "startTime": 1.956
-        },
-        {
-            "velocity": 74,
-            "duration": 0.4039999999999999,
-            "pitch": 60,
-            "startTime": 1.956
-        },
-        {
-            "velocity": 74,
-            "duration": 0.4039999999999999,
-            "pitch": 60,
-            "startTime": 1.956
-        },
-        {
-            "velocity": 74,
-            "duration": 0.4039999999999999,
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
             "pitch": 64,
-            "startTime": 1.956
+            "key": 60,
+            "uuid": 2,
+            "startTime": 1.5,
+            "endTime": 2,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "duration": 0.4039999999999999,
-            "velocity": 83,
-            "pitch": 67,
-            "startTime": 1.956
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
         },
         {
-            "velocity": 78,
-            "duration": 0.3200000000000003,
-            "pitch": 69,
-            "startTime": 2.608
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
         },
         {
-            "velocity": 78,
-            "duration": 0.3200000000000003,
-            "pitch": 65,
-            "startTime": 2.608
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 100,
+            "duration": 1.0
         },
         {
-            "velocity": 78,
-            "duration": 0.3200000000000003,
-            "pitch": 60,
-            "startTime": 2.608
-        },
-        {
-            "velocity": 78,
-            "duration": 0.3200000000000003,
-            "pitch": 65,
-            "startTime": 2.608
-        },
-        {
-            "duration": 0.3200000000000003,
-            "velocity": 87,
-            "pitch": 69,
-            "startTime": 2.608
-        },
-        {
-            "velocity": 69,
-            "duration": 0.399,
-            "pitch": 69,
-            "startTime": 3.2600000000000002
-        },
-        {
-            "velocity": 69,
-            "duration": 0.399,
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
             "pitch": 62,
-            "startTime": 3.2600000000000002
+            "key": 60,
+            "uuid": 3,
+            "startTime": 2.0,
+            "endTime": 2.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 69,
-            "duration": 0.399,
-            "pitch": 65,
-            "startTime": 3.2600000000000002
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
+            "pitch": 64,
+            "key": 60,
+            "uuid": 4,
+            "startTime": 2.5,
+            "endTime": 3,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 69,
-            "duration": 0.399,
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 53,
+            "duration": 1.0
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 57,
+            "duration": 1.0
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 50,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
+            "pitch": 60,
+            "key": 60,
+            "uuid": 5,
+            "startTime": 3.0,
+            "endTime": 4,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 55,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 59,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 52,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
+            "pitch": 60,
+            "key": 60,
+            "uuid": 0,
+            "startTime": 0.0,
+            "endTime": 1,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 100,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
             "pitch": 62,
-            "startTime": 3.2600000000000002
+            "key": 60,
+            "uuid": 1,
+            "startTime": 1.0,
+            "endTime": 1.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "duration": 0.399,
-            "velocity": 77,
-            "pitch": 69,
-            "startTime": 3.2600000000000002
-        },
-        {
-            "velocity": 76,
-            "duration": 1.2350000000000003,
-            "pitch": 67,
-            "startTime": 3.912
-        },
-        {
-            "velocity": 76,
-            "duration": 1.2350000000000003,
-            "pitch": 71,
-            "startTime": 3.912
-        },
-        {
-            "velocity": 76,
-            "duration": 1.2350000000000003,
-            "pitch": 65,
-            "startTime": 3.912
-        },
-        {
-            "velocity": 76,
-            "duration": 1.2350000000000003,
-            "pitch": 67,
-            "startTime": 3.912
-        },
-        {
-            "duration": 1.2349999999999999,
-            "velocity": 85,
-            "pitch": 67,
-            "startTime": 3.912
-        },
-        {
-            "velocity": 72,
-            "duration": 0.35799999999999965,
-            "pitch": 65,
-            "startTime": 5.3790000000000004
-        },
-        {
-            "velocity": 72,
-            "duration": 0.35799999999999965,
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
             "pitch": 64,
-            "startTime": 5.3790000000000004
+            "key": 60,
+            "uuid": 2,
+            "startTime": 1.5,
+            "endTime": 2,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 72,
-            "duration": 0.35799999999999965,
-            "pitch": 67,
-            "startTime": 5.3790000000000004
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
         },
         {
-            "velocity": 72,
-            "duration": 0.35799999999999965,
-            "pitch": 60,
-            "startTime": 5.3790000000000004
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
         },
         {
-            "duration": 0.35799999999999965,
-            "velocity": 80,
-            "pitch": 65,
-            "startTime": 5.3790000000000004
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 100,
+            "duration": 1.0
         },
         {
-            "velocity": 70,
-            "duration": 0.4449999999999994,
-            "pitch": 65,
-            "startTime": 6.031000000000001
-        },
-        {
-            "velocity": 70,
-            "duration": 0.4449999999999994,
-            "pitch": 64,
-            "startTime": 6.031000000000001
-        },
-        {
-            "velocity": 70,
-            "duration": 0.4449999999999994,
-            "pitch": 67,
-            "startTime": 6.031000000000001
-        },
-        {
-            "velocity": 70,
-            "duration": 0.4449999999999994,
-            "pitch": 60,
-            "startTime": 6.031000000000001
-        },
-        {
-            "duration": 0.4449999999999994,
-            "velocity": 78,
-            "pitch": 65,
-            "startTime": 6.031000000000001
-        },
-        {
-            "velocity": 70,
-            "duration": 0.38099999999999934,
-            "pitch": 64,
-            "startTime": 6.683
-        },
-        {
-            "velocity": 70,
-            "duration": 0.38099999999999934,
-            "pitch": 69,
-            "startTime": 6.683
-        },
-        {
-            "velocity": 70,
-            "duration": 0.38099999999999934,
-            "pitch": 60,
-            "startTime": 6.683
-        },
-        {
-            "velocity": 70,
-            "duration": 0.38099999999999934,
-            "pitch": 65,
-            "startTime": 6.683
-        },
-        {
-            "duration": 0.38099999999999934,
-            "velocity": 78,
-            "pitch": 64,
-            "startTime": 6.683
-        },
-        {
-            "velocity": 63,
-            "duration": 0.4109999999999996,
-            "pitch": 64,
-            "startTime": 7.335
-        },
-        {
-            "velocity": 63,
-            "duration": 0.4109999999999996,
-            "pitch": 60,
-            "startTime": 7.335
-        },
-        {
-            "velocity": 63,
-            "duration": 0.4109999999999996,
-            "pitch": 67,
-            "startTime": 7.335
-        },
-        {
-            "velocity": 63,
-            "duration": 0.4109999999999996,
-            "pitch": 60,
-            "startTime": 7.335
-        },
-        {
-            "duration": 0.4109999999999996,
-            "velocity": 70,
-            "pitch": 64,
-            "startTime": 7.335
-        },
-        {
-            "velocity": 63,
-            "duration": 0.41999999999999993,
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
             "pitch": 62,
-            "startTime": 7.987
+            "key": 60,
+            "uuid": 3,
+            "startTime": 2.0,
+            "endTime": 2.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 63,
-            "duration": 0.41999999999999993,
-            "pitch": 65,
-            "startTime": 7.987
-        },
-        {
-            "velocity": 63,
-            "duration": 0.41999999999999993,
-            "pitch": 60,
-            "startTime": 7.987
-        },
-        {
-            "velocity": 63,
-            "duration": 0.41999999999999993,
-            "pitch": 62,
-            "startTime": 7.987
-        },
-        {
-            "duration": 0.41999999999999904,
-            "velocity": 70,
-            "pitch": 62,
-            "startTime": 7.987
-        },
-        {
-            "velocity": 72,
-            "duration": 0.37400000000000055,
-            "pitch": 62,
-            "startTime": 8.639000000000001
-        },
-        {
-            "velocity": 72,
-            "duration": 0.37400000000000055,
-            "pitch": 67,
-            "startTime": 8.639000000000001
-        },
-        {
-            "velocity": 72,
-            "duration": 0.37400000000000055,
-            "pitch": 71,
-            "startTime": 8.639000000000001
-        },
-        {
-            "velocity": 72,
-            "duration": 0.37400000000000055,
-            "pitch": 67,
-            "startTime": 8.639000000000001
-        },
-        {
-            "duration": 0.37400000000000055,
-            "velocity": 81,
-            "pitch": 62,
-            "startTime": 8.639000000000001
-        },
-        {
-            "velocity": 62,
-            "duration": 0.9529999999999994,
-            "pitch": 60,
-            "startTime": 9.291
-        },
-        {
-            "velocity": 62,
-            "duration": 0.9529999999999994,
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
             "pitch": 64,
-            "startTime": 9.291
+            "key": 60,
+            "uuid": 4,
+            "startTime": 2.5,
+            "endTime": 3,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
         },
         {
-            "velocity": 62,
-            "duration": 0.9529999999999994,
-            "pitch": 67,
-            "startTime": 9.291
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 55,
+            "duration": 1.0
         },
         {
-            "velocity": 62,
-            "duration": 0.9529999999999994,
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 59,
+            "duration": 1.0
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 52,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
             "pitch": 60,
-            "startTime": 9.291
+            "key": 60,
+            "uuid": 5,
+            "startTime": 3.0,
+            "endTime": 4,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
         },
         {
-            "duration": 0.9529999999999994,
-            "velocity": 69,
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 52,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 55,
+            "duration": 1.0
+        },
+        {
+            "startTime": 0.0,
+            "velocity": 95,
+            "pitch": 48,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
             "pitch": 60,
-            "startTime": 9.291
+            "key": 60,
+            "uuid": 0,
+            "startTime": 0.0,
+            "endTime": 1,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
+        },
+        {
+            "startTime": 1.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
+            "pitch": 62,
+            "key": 60,
+            "uuid": 1,
+            "startTime": 1.0,
+            "endTime": 1.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
+        },
+        {
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
+            "pitch": 64,
+            "key": 60,
+            "uuid": 2,
+            "startTime": 1.5,
+            "endTime": 2,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
+        },
+        {
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
+        },
+        {
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 107,
+            "duration": 1.0
+        },
+        {
+            "startTime": 2.0,
+            "velocity": 95,
+            "pitch": 103,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "62",
+            "velocity": 127,
+            "pitch": 62,
+            "key": 60,
+            "uuid": 3,
+            "startTime": 2.0,
+            "endTime": 2.5,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
+        },
+        {
+            "type": "Note on",
+            "note": "64",
+            "velocity": 127,
+            "pitch": 64,
+            "key": 60,
+            "uuid": 4,
+            "startTime": 2.5,
+            "endTime": 3,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 0.5
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 52,
+            "duration": 1.0
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 55,
+            "duration": 1.0
+        },
+        {
+            "startTime": 3.0,
+            "velocity": 95,
+            "pitch": 48,
+            "duration": 1.0
+        },
+        {
+            "type": "Note on",
+            "note": "60",
+            "velocity": 127,
+            "pitch": 60,
+            "key": 60,
+            "uuid": 5,
+            "startTime": 3.0,
+            "endTime": 4,
+            "octaves": 0,
+            "tempo": 1,
+            "duration": 1
         }
     ]
 }

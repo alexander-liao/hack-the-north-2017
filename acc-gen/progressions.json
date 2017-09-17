@@ -42,7 +42,7 @@
             "weight": 700,
             "chords": [
                 {"type": "I", "inversion": 0},
-                {"type": "V", "inverions": -1},
+                {"type": "V", "inversion": -1},
                 {"type": "I", "inversion": 0}
             ]
         }, {

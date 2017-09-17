@@ -1,0 +1,1087 @@
+diff --git a/acc-gen/chordgenerator.py b/acc-gen/chordgenerator.py
+index 30a522b..833334c 100644
+--- a/acc-gen/chordgenerator.py
++++ b/acc-gen/chordgenerator.py
+@@ -50,21 +50,11 @@ def generate(progressions, notes): # Top 3
+             result.append(config)
+     return sorted(result, key = lambda node: node[0])[-selections:]
+ 
+-def genData(progressions, chunks):
+-    notes = [chunk[0] for chunk in chunks]
+-    harmony = generate(progressions, notes)
+-    for chunk in harmony:
+-        index = 0
+-        for i in range(len(chunk[2])):
+-            chunk[2][i] = chunks[index]
+-            index += 1
+-    return harmony
+-
+ import os
+ path = os.path.dirname(__file__)
+ 
+ print(json.dumps({
+-    "chunks": genData(
++    "blocks": generate(
+         json.loads(open(path + "/progressions.json", "r").read()),
+         json.loads(stdin.read())
+     )
+diff --git a/acc-gen/interprocessor.py b/acc-gen/interprocessor.py
+index 1d21762..1fff50f 100644
+--- a/acc-gen/interprocessor.py
++++ b/acc-gen/interprocessor.py
+@@ -9,24 +9,7 @@
+ import json
+ from sys import stdin
+ 
+-def FT(obj):
+-    print(json.dumps(obj, indent = 4))
+-    return obj
+-
+ def transpose(data):
+-    chunks = data["chunks"]
+-    result = []
+-    for chunk in chunks:
+-        chord = {}
+-        chord["score"] = chunk[0]
+-        chord["chords"] = []
+-        for chorddata, blocklist in zip(*chunk[1:]):
+-            for block in blocklist:
+-                chord["chords"].append((chorddata, block))
+-        result.append(chord)
+-    return {"blocks": result}
+-
+-    '''
+     return {
+         "blocks": [
+             {
+@@ -35,6 +18,5 @@ def transpose(data):
+             } for component in data["blocks"]
+         ]
+     }
+-    '''
+ 
+ print(json.dumps(transpose(json.loads(stdin.read())), indent = 4))
+diff --git a/acc-gen/preprocessor.py b/acc-gen/preprocessor.py
+index 8868c1b..cee619e 100644
+--- a/acc-gen/preprocessor.py
++++ b/acc-gen/preprocessor.py
+@@ -19,24 +19,14 @@ def process(notes):
+     uuid = 0
+     for note in notes["notes"]:
+         note["pitch"] -= notes["key"]
+-        note["tempo"] = notes["tempo"]
+         note["key"] = notes["key"]
+         note.update(uuid = uuid, octaves = note["pitch"] // 12)
+         note["pitch"] %= 12
+         uuid += 1
+     notes["notes"].sort(key = lambda note: note["startTime"])
+-    # for note in notes["notes"]: # Magic code apparently is not magic
+-        # note["invisible"] = note["pitch"] not in [C, D, E, F, G, A, B] # Magic Ethan code
+-    # notes["notes"] = filter(lambda note: note["pitch"] in [C, D, E, F, G, A, B], notes["notes"]) # this sounds bad?
++    notes["notes"] = list(filter(lambda note: note["pitch"] in [C, D, E, F, G, A, B], notes["notes"]))
+     return notes
+ 
+-def equal(block1, block2):
+-    if block2 == None:
+-        return False
+-    head1 = block1[0]
+-    head2 = block2[0]
+-    return head1["startTime"] - head2["startTime"] == head1["tempo"] and [note["pitch"] for note in block1] == [note["pitch"] for note in block2]
+-
+ def merge(notes):
+     combos = {}
+     tempo = notes["tempo"]
+@@ -48,13 +38,4 @@ def merge(notes):
+         combos[beat].append(note)
+     return list(combos.values())
+ 
+-def metamerge(blocks):
+-    chunks = []
+-    for block in blocks:
+-        if len(chunks) > 0 and equal(block, chunks[-1][-1]):
+-            chunks[-1].append(block)
+-        else:
+-            chunks.append([block])
+-    return chunks
+-
+-print(json.dumps(metamerge(merge(process(snap(json.loads(stdin.read()))))), indent = 4))
++print(json.dumps(merge(process(snap(json.loads(stdin.read())))), indent = 4))
+diff --git a/acc-gen/progressions.json b/acc-gen/progressions.json
+index daccd4c..53e7855 100644
+--- a/acc-gen/progressions.json
++++ b/acc-gen/progressions.json
+@@ -42,7 +42,7 @@
+             "weight": 700,
+             "chords": [
+                 {"type": "I", "inversion": 0},
+-                {"type": "V", "inversion": -1},
++                {"type": "V", "inverions": -1},
+                 {"type": "I", "inversion": 0}
+             ]
+         }, {
+diff --git a/acc-gen/satb.py b/acc-gen/satb.py
+index 83a82a4..67b03dd 100644
+--- a/acc-gen/satb.py
++++ b/acc-gen/satb.py
+@@ -54,9 +54,15 @@ def SATB(data):
+         harmony.append(last)
+         active_notes = chord[1]
+         for note in active_notes:
++            del note["endTime"]
++            del note["uuid"]
++            del note["note"]
++            del note["type"]
+             note["pitch"] += note["octaves"] * 12
+             note["pitch"] += note["key"]
+             harmony[-1] = [pitch + note["key"] - 12 for pitch in harmony[-1]]
++            del note["octaves"]
++            del note["key"]
+         harmony[-1] = [{
+             "velocity": int(active_notes[0]["velocity"] * 0.75),
+             "duration": active_notes[-1]["duration"] + active_notes[-1]["startTime"] - active_notes[0]["startTime"],
+@@ -67,5 +73,5 @@ def SATB(data):
+     return sum(harmony, [])
+ 
+ print(json.dumps({
+-    "notes": sum([SATB(prog) for prog in json.loads(stdin.read())["blocks"]], [])
++    "blocks": [SATB(prog) for prog in json.loads(stdin.read())["blocks"]]
+ }, indent = 4))
+diff --git a/acc-gen/test-input.json b/acc-gen/test-input.json
+index 2d9aff1..6048b0d 100644
+--- a/acc-gen/test-input.json
++++ b/acc-gen/test-input.json
+@@ -1,60 +1,132 @@
+ {
+     "key": 60,
+-    "tempo": 1,
++    "tempo": 0.652,
+     "notes": [
+         {
+-            "velocity": 127,
++            "velocity": 78,
+             "note": "60",
+-            "type": "Note on",
+             "pitch": 60,
++            "type": "Note on",
+             "startTime": 0,
+-            "duration": 1,
+-            "endTime": 1
++            "duration": 0.367,
++            "endTime": 0.367
+         },
+         {
+-            "velocity": 127,
+-            "note": "62",
++            "velocity": 78,
++            "note": "60",
++            "pitch": 60,
+             "type": "Note on",
+-            "pitch": 62,
+-            "startTime": 1,
+-            "duration": 0.5,
+-            "endTime": 1.5
++            "startTime": 0.652,
++            "duration": 0.392,
++            "endTime": 1.044
++        },
++        {
++            "velocity": 83,
++            "note": "67",
++            "pitch": 67,
++            "type": "Note on",
++            "startTime": 1.319,
++            "duration": 0.34299999999999997,
++            "endTime": 1.662
++        },
++        {
++            "velocity": 83,
++            "note": "67",
++            "pitch": 67,
++            "type": "Note on",
++            "startTime": 1.964,
++            "duration": 0.4039999999999999,
++            "endTime": 2.368
++        },
++        {
++            "velocity": 87,
++            "note": "69",
++            "pitch": 69,
++            "type": "Note on",
++            "startTime": 2.659,
++            "duration": 0.3200000000000003,
++            "endTime": 2.979
++        },
++        {
++            "velocity": 77,
++            "note": "69",
++            "pitch": 69,
++            "type": "Note on",
++            "startTime": 3.272,
++            "duration": 0.399,
++            "endTime": 3.671
++        },
++        {
++            "velocity": 85,
++            "note": "67",
++            "pitch": 67,
++            "type": "Note on",
++            "startTime": 3.946,
++            "duration": 1.2349999999999999,
++            "endTime": 5.181
++        },
++        {
++            "velocity": 80,
++            "note": "65",
++            "pitch": 65,
++            "type": "Note on",
++            "startTime": 5.311,
++            "duration": 0.35799999999999965,
++            "endTime": 5.669
++        },
++        {
++            "velocity": 78,
++            "note": "65",
++            "pitch": 65,
++            "type": "Note on",
++            "startTime": 5.982,
++            "duration": 0.4449999999999994,
++            "endTime": 6.427
+         },
+         {
+-            "velocity": 127,
++            "velocity": 78,
+             "note": "64",
++            "pitch": 64,
+             "type": "Note on",
++            "startTime": 6.666,
++            "duration": 0.38099999999999934,
++            "endTime": 7.047
++        },
++        {
++            "velocity": 70,
++            "note": "64",
+             "pitch": 64,
+-            "startTime": 1.5,
+-            "duration": 0.5,
+-            "endTime": 2
++            "type": "Note on",
++            "startTime": 7.312,
++            "duration": 0.4109999999999996,
++            "endTime": 7.723
+         },
+         {
+-            "velocity": 127,
++            "velocity": 70,
+             "note": "62",
+-            "type": "Note on",
+             "pitch": 62,
+-            "startTime": 2,
+-            "duration": 0.5,
+-            "endTime": 2.5
++            "type": "Note on",
++            "startTime": 7.966,
++            "duration": 0.41999999999999904,
++            "endTime": 8.386
+         },
+         {
+-            "velocity": 127,
+-            "note": "64",
++            "velocity": 81,
++            "note": "62",
++            "pitch": 62,
+             "type": "Note on",
+-            "pitch": 64,
+-            "startTime": 2.5,
+-            "duration": 0.5,
+-            "endTime": 3
++            "startTime": 8.661,
++            "duration": 0.37400000000000055,
++            "endTime": 9.035
+         },
+         {
+-            "velocity": 127,
++            "velocity": 69,
+             "note": "60",
+-            "type": "Note on",
+             "pitch": 60,
+-            "startTime": 3,
+-            "duration": 1,
+-            "endTime": 4
++            "type": "Note on",
++            "startTime": 9.321,
++            "duration": 0.9529999999999994,
++            "endTime": 10.274
+         }
+     ]
+ }
+diff --git a/acc-gen/test-output.json b/acc-gen/test-output.json
+index e7c7675..e573dc6 100644
+--- a/acc-gen/test-output.json
++++ b/acc-gen/test-output.json
+@@ -1,454 +1,424 @@
+ {
+     "notes": [
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 55,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.367,
++            "pitch": 60,
++            "startTime": 0.0
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 59,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.367,
++            "pitch": 64,
++            "startTime": 0.0
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 52,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.367,
++            "pitch": 67,
++            "startTime": 0.0
++        },
++        {
++            "velocity": 70,
++            "duration": 0.367,
++            "pitch": 60,
++            "startTime": 0.0
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "duration": 0.367,
++            "velocity": 78,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 0,
+-            "startTime": 0.0,
+-            "endTime": 1,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 0.0
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.392,
++            "pitch": 60,
++            "startTime": 0.652
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.392,
++            "pitch": 62,
++            "startTime": 0.652
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 100,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.392,
++            "pitch": 69,
++            "startTime": 0.652
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
+-            "pitch": 62,
+-            "key": 60,
+-            "uuid": 1,
+-            "startTime": 1.0,
+-            "endTime": 1.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
+-            "pitch": 64,
+-            "key": 60,
+-            "uuid": 2,
+-            "startTime": 1.5,
+-            "endTime": 2,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "velocity": 70,
++            "duration": 0.392,
++            "pitch": 65,
++            "startTime": 0.652
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "duration": 0.392,
++            "velocity": 78,
++            "pitch": 60,
++            "startTime": 0.652
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "velocity": 74,
++            "duration": 0.34299999999999997,
++            "pitch": 67,
++            "startTime": 1.304
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 100,
+-            "duration": 1.0
++            "velocity": 74,
++            "duration": 0.34299999999999997,
++            "pitch": 71,
++            "startTime": 1.304
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
++            "velocity": 74,
++            "duration": 0.34299999999999997,
+             "pitch": 62,
+-            "key": 60,
+-            "uuid": 3,
+-            "startTime": 2.0,
+-            "endTime": 2.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
+-            "pitch": 64,
+-            "key": 60,
+-            "uuid": 4,
+-            "startTime": 2.5,
+-            "endTime": 3,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "startTime": 1.304
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 53,
+-            "duration": 1.0
++            "velocity": 74,
++            "duration": 0.34299999999999997,
++            "pitch": 67,
++            "startTime": 1.304
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 57,
+-            "duration": 1.0
++            "duration": 0.34299999999999997,
++            "velocity": 83,
++            "pitch": 67,
++            "startTime": 1.304
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 50,
+-            "duration": 1.0
++            "velocity": 74,
++            "duration": 0.4039999999999999,
++            "pitch": 67,
++            "startTime": 1.956
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "velocity": 74,
++            "duration": 0.4039999999999999,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 5,
+-            "startTime": 3.0,
+-            "endTime": 4,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 1.956
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 55,
+-            "duration": 1.0
++            "velocity": 74,
++            "duration": 0.4039999999999999,
++            "pitch": 60,
++            "startTime": 1.956
++        },
++        {
++            "velocity": 74,
++            "duration": 0.4039999999999999,
++            "pitch": 64,
++            "startTime": 1.956
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 59,
+-            "duration": 1.0
++            "duration": 0.4039999999999999,
++            "velocity": 83,
++            "pitch": 67,
++            "startTime": 1.956
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 52,
+-            "duration": 1.0
++            "velocity": 78,
++            "duration": 0.3200000000000003,
++            "pitch": 69,
++            "startTime": 2.608
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "velocity": 78,
++            "duration": 0.3200000000000003,
++            "pitch": 65,
++            "startTime": 2.608
++        },
++        {
++            "velocity": 78,
++            "duration": 0.3200000000000003,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 0,
+-            "startTime": 0.0,
+-            "endTime": 1,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 2.608
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "velocity": 78,
++            "duration": 0.3200000000000003,
++            "pitch": 65,
++            "startTime": 2.608
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "duration": 0.3200000000000003,
++            "velocity": 87,
++            "pitch": 69,
++            "startTime": 2.608
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 100,
+-            "duration": 1.0
++            "velocity": 69,
++            "duration": 0.399,
++            "pitch": 69,
++            "startTime": 3.2600000000000002
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
++            "velocity": 69,
++            "duration": 0.399,
+             "pitch": 62,
+-            "key": 60,
+-            "uuid": 1,
+-            "startTime": 1.0,
+-            "endTime": 1.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
++            "startTime": 3.2600000000000002
++        },
++        {
++            "velocity": 69,
++            "duration": 0.399,
++            "pitch": 65,
++            "startTime": 3.2600000000000002
++        },
++        {
++            "velocity": 69,
++            "duration": 0.399,
++            "pitch": 62,
++            "startTime": 3.2600000000000002
++        },
++        {
++            "duration": 0.399,
++            "velocity": 77,
++            "pitch": 69,
++            "startTime": 3.2600000000000002
++        },
++        {
++            "velocity": 76,
++            "duration": 1.2350000000000003,
++            "pitch": 67,
++            "startTime": 3.912
++        },
++        {
++            "velocity": 76,
++            "duration": 1.2350000000000003,
++            "pitch": 71,
++            "startTime": 3.912
++        },
++        {
++            "velocity": 76,
++            "duration": 1.2350000000000003,
++            "pitch": 65,
++            "startTime": 3.912
++        },
++        {
++            "velocity": 76,
++            "duration": 1.2350000000000003,
++            "pitch": 67,
++            "startTime": 3.912
++        },
++        {
++            "duration": 1.2349999999999999,
++            "velocity": 85,
++            "pitch": 67,
++            "startTime": 3.912
++        },
++        {
++            "velocity": 72,
++            "duration": 0.35799999999999965,
++            "pitch": 65,
++            "startTime": 5.3790000000000004
++        },
++        {
++            "velocity": 72,
++            "duration": 0.35799999999999965,
+             "pitch": 64,
+-            "key": 60,
+-            "uuid": 2,
+-            "startTime": 1.5,
+-            "endTime": 2,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "startTime": 5.3790000000000004
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "velocity": 72,
++            "duration": 0.35799999999999965,
++            "pitch": 67,
++            "startTime": 5.3790000000000004
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "velocity": 72,
++            "duration": 0.35799999999999965,
++            "pitch": 60,
++            "startTime": 5.3790000000000004
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 100,
+-            "duration": 1.0
++            "duration": 0.35799999999999965,
++            "velocity": 80,
++            "pitch": 65,
++            "startTime": 5.3790000000000004
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
+-            "pitch": 62,
+-            "key": 60,
+-            "uuid": 3,
+-            "startTime": 2.0,
+-            "endTime": 2.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
++            "velocity": 70,
++            "duration": 0.4449999999999994,
++            "pitch": 65,
++            "startTime": 6.031000000000001
++        },
++        {
++            "velocity": 70,
++            "duration": 0.4449999999999994,
+             "pitch": 64,
+-            "key": 60,
+-            "uuid": 4,
+-            "startTime": 2.5,
+-            "endTime": 3,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "startTime": 6.031000000000001
++        },
++        {
++            "velocity": 70,
++            "duration": 0.4449999999999994,
++            "pitch": 67,
++            "startTime": 6.031000000000001
++        },
++        {
++            "velocity": 70,
++            "duration": 0.4449999999999994,
++            "pitch": 60,
++            "startTime": 6.031000000000001
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 55,
+-            "duration": 1.0
++            "duration": 0.4449999999999994,
++            "velocity": 78,
++            "pitch": 65,
++            "startTime": 6.031000000000001
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 59,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.38099999999999934,
++            "pitch": 64,
++            "startTime": 6.683
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 52,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.38099999999999934,
++            "pitch": 69,
++            "startTime": 6.683
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "velocity": 70,
++            "duration": 0.38099999999999934,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 5,
+-            "startTime": 3.0,
+-            "endTime": 4,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 6.683
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 52,
+-            "duration": 1.0
++            "velocity": 70,
++            "duration": 0.38099999999999934,
++            "pitch": 65,
++            "startTime": 6.683
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 55,
+-            "duration": 1.0
++            "duration": 0.38099999999999934,
++            "velocity": 78,
++            "pitch": 64,
++            "startTime": 6.683
+         },
+         {
+-            "startTime": 0.0,
+-            "velocity": 95,
+-            "pitch": 48,
+-            "duration": 1.0
++            "velocity": 63,
++            "duration": 0.4109999999999996,
++            "pitch": 64,
++            "startTime": 7.335
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "velocity": 63,
++            "duration": 0.4109999999999996,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 0,
+-            "startTime": 0.0,
+-            "endTime": 1,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 7.335
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "velocity": 63,
++            "duration": 0.4109999999999996,
++            "pitch": 67,
++            "startTime": 7.335
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "velocity": 63,
++            "duration": 0.4109999999999996,
++            "pitch": 60,
++            "startTime": 7.335
+         },
+         {
+-            "startTime": 1.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "duration": 0.4109999999999996,
++            "velocity": 70,
++            "pitch": 64,
++            "startTime": 7.335
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
++            "velocity": 63,
++            "duration": 0.41999999999999993,
+             "pitch": 62,
+-            "key": 60,
+-            "uuid": 1,
+-            "startTime": 1.0,
+-            "endTime": 1.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
+-            "pitch": 64,
+-            "key": 60,
+-            "uuid": 2,
+-            "startTime": 1.5,
+-            "endTime": 2,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "startTime": 7.987
++        },
++        {
++            "velocity": 63,
++            "duration": 0.41999999999999993,
++            "pitch": 65,
++            "startTime": 7.987
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "velocity": 63,
++            "duration": 0.41999999999999993,
++            "pitch": 60,
++            "startTime": 7.987
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 107,
+-            "duration": 1.0
++            "velocity": 63,
++            "duration": 0.41999999999999993,
++            "pitch": 62,
++            "startTime": 7.987
+         },
+         {
+-            "startTime": 2.0,
+-            "velocity": 95,
+-            "pitch": 103,
+-            "duration": 1.0
++            "duration": 0.41999999999999904,
++            "velocity": 70,
++            "pitch": 62,
++            "startTime": 7.987
+         },
+         {
+-            "type": "Note on",
+-            "note": "62",
+-            "velocity": 127,
++            "velocity": 72,
++            "duration": 0.37400000000000055,
+             "pitch": 62,
+-            "key": 60,
+-            "uuid": 3,
+-            "startTime": 2.0,
+-            "endTime": 2.5,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
+-        },
+-        {
+-            "type": "Note on",
+-            "note": "64",
+-            "velocity": 127,
+-            "pitch": 64,
+-            "key": 60,
+-            "uuid": 4,
+-            "startTime": 2.5,
+-            "endTime": 3,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 0.5
++            "startTime": 8.639000000000001
++        },
++        {
++            "velocity": 72,
++            "duration": 0.37400000000000055,
++            "pitch": 67,
++            "startTime": 8.639000000000001
++        },
++        {
++            "velocity": 72,
++            "duration": 0.37400000000000055,
++            "pitch": 71,
++            "startTime": 8.639000000000001
++        },
++        {
++            "velocity": 72,
++            "duration": 0.37400000000000055,
++            "pitch": 67,
++            "startTime": 8.639000000000001
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 52,
+-            "duration": 1.0
++            "duration": 0.37400000000000055,
++            "velocity": 81,
++            "pitch": 62,
++            "startTime": 8.639000000000001
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 55,
+-            "duration": 1.0
++            "velocity": 62,
++            "duration": 0.9529999999999994,
++            "pitch": 60,
++            "startTime": 9.291
+         },
+         {
+-            "startTime": 3.0,
+-            "velocity": 95,
+-            "pitch": 48,
+-            "duration": 1.0
++            "velocity": 62,
++            "duration": 0.9529999999999994,
++            "pitch": 64,
++            "startTime": 9.291
++        },
++        {
++            "velocity": 62,
++            "duration": 0.9529999999999994,
++            "pitch": 67,
++            "startTime": 9.291
++        },
++        {
++            "velocity": 62,
++            "duration": 0.9529999999999994,
++            "pitch": 60,
++            "startTime": 9.291
+         },
+         {
+-            "type": "Note on",
+-            "note": "60",
+-            "velocity": 127,
++            "duration": 0.9529999999999994,
++            "velocity": 69,
+             "pitch": 60,
+-            "key": 60,
+-            "uuid": 5,
+-            "startTime": 3.0,
+-            "endTime": 4,
+-            "octaves": 0,
+-            "tempo": 1,
+-            "duration": 1
++            "startTime": 9.291
+         }
+     ]
+ }

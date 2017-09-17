@@ -9,7 +9,24 @@
 import json
 from sys import stdin
 
+def FT(obj):
+    print(json.dumps(obj, indent = 4))
+    return obj
+
 def transpose(data):
+    chunks = data["chunks"]
+    result = []
+    for chunk in chunks:
+        chord = {}
+        chord["score"] = chunk[0]
+        chord["chords"] = []
+        for chorddata, blocklist in zip(*chunk[1:]):
+            for block in blocklist:
+                chord["chords"].append((chorddata, block))
+        result.append(chord)
+    return {"blocks": result}
+
+    '''
     return {
         "blocks": [
             {
@@ -18,5 +35,6 @@ def transpose(data):
             } for component in data["blocks"]
         ]
     }
+    '''
 
 print(json.dumps(transpose(json.loads(stdin.read())), indent = 4))

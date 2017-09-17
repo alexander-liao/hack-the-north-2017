@@ -50,11 +50,21 @@ def generate(progressions, notes): # Top 3
             result.append(config)
     return sorted(result, key = lambda node: node[0])[-selections:]
 
+def genData(progressions, chunks):
+    notes = [chunk[0] for chunk in chunks]
+    harmony = generate(progressions, notes)
+    for chunk in harmony:
+        index = 0
+        for i in range(len(chunk[2])):
+            chunk[2][i] = chunks[index]
+            index += 1
+    return harmony
+
 import os
 path = os.path.dirname(__file__)
 
 print(json.dumps({
-    "blocks": generate(
+    "chunks": genData(
         json.loads(open(path + "/progressions.json", "r").read()),
         json.loads(stdin.read())
     )
