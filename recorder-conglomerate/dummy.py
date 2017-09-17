@@ -183,5 +183,10 @@ def serve_playback_play():
     return jsonify(dict(success=True, submitted_song=request.get_data()))
 
 
+@app.route("/harmonize", methods=["POST"])
+def serve_harmonize():
+    return request.get_data()
+
+
 if __name__ == "__main__":
     app.run(port=5000)

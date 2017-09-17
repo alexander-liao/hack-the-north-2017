@@ -77,6 +77,11 @@ def serve_last_to_play():
     return last_to_play
 
 
+@app.route("/harmonize", methods=["POST"])
+def serve_harmonize():
+    return subprocess.check_output(os.path.join(os.path.dirname(os.path.realpath(__file__)), "harmnz.sh"), input=request.get_data()).decode()
+
+
 if __name__ == "__main__":
     # app.run(port=5000)
     from gevent import pywsgi
