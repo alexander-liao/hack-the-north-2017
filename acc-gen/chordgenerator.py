@@ -32,17 +32,22 @@ def match(progression, notes):
         inner = 0
         for note in block:
             if note["pitch"] in chord[0]:
-                inner += 4
+                inner += 2
             elif note["pitch"] in chord[1]:
-                inner += 1
+                inner -= 4
+            else:
+                inner -= 8
+                # return -1
         weight += inner / len(block)
         bindex += 1
         if not equal(block, last) or len(chorddata) - cindex == len(notes) - bindex:
             cindex += 1
         last = block
+    if len(notes) == bindex and chords[-1]["type"] != "I":
+        return -1
     return progression["weight"] * weight
 
-selections = 3
+selections = 1
 
 def find(progressions, notes): # Top 3
     result = []
@@ -71,7 +76,7 @@ path = os.path.dirname(__file__)
 
 print(json.dumps({
     "blocks": generate(
-        json.loads(open(path + "/progressions.json", "r").read()),
+        json.loads(open(path + "/prog-new.json", "r").read()),
         json.loads(stdin.read())
     )
 }, indent = 4))
