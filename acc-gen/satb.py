@@ -54,15 +54,9 @@ def SATB(data):
         harmony.append(last)
         active_notes = chord[1]
         for note in active_notes:
-            del note["endTime"]
-            del note["uuid"]
-            del note["note"]
-            del note["type"]
             note["pitch"] += note["octaves"] * 12
             note["pitch"] += note["key"]
             harmony[-1] = [pitch + note["key"] - 12 for pitch in harmony[-1]]
-            del note["octaves"]
-            del note["key"]
         harmony[-1] = [{
             "velocity": int(active_notes[0]["velocity"] * 0.75),
             "duration": active_notes[-1]["duration"] + active_notes[-1]["startTime"] - active_notes[0]["startTime"],

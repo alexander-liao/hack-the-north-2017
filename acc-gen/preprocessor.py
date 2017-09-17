@@ -20,11 +20,11 @@ def process(notes):
     for note in notes["notes"]:
         note["pitch"] -= notes["key"]
         note["key"] = notes["key"]
+        note["tempo"] = notes["tempo"]
         note.update(uuid = uuid, octaves = note["pitch"] // 12)
         note["pitch"] %= 12
         uuid += 1
     notes["notes"].sort(key = lambda note: note["startTime"])
-    notes["notes"] = list(filter(lambda note: note["pitch"] in [C, D, E, F, G, A, B], notes["notes"]))
     return notes
 
 def merge(notes):
