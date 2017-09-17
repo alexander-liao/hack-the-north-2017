@@ -1,0 +1,231 @@
+{
+    "key": 60,
+    "tempo": 0.658,
+    "notes": [
+        {
+            "velocity": 77,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 0,
+            "duration": 0.382,
+            "endTime": 0.382
+        },
+        {
+            "velocity": 78,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 0.658,
+            "duration": 0.3829999999999999,
+            "endTime": 1.041
+        },
+        {
+            "velocity": 71,
+            "pitch": 48,
+            "type": "Note on",
+            "note": "48",
+            "startTime": 1.331,
+            "duration": 0.377,
+            "endTime": 1.708
+        },
+        {
+            "velocity": 80,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 2.012,
+            "duration": 0.375,
+            "endTime": 2.387
+        },
+        {
+            "velocity": 71,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 2.687,
+            "duration": 0.3500000000000001,
+            "endTime": 3.037
+        },
+        {
+            "velocity": 81,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 3.346,
+            "duration": 0.35299999999999976,
+            "endTime": 3.699
+        },
+        {
+            "velocity": 85,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 4.016,
+            "duration": 1.0540000000000003,
+            "endTime": 5.07
+        },
+        {
+            "velocity": 77,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 5.342,
+            "duration": 0.36100000000000065,
+            "endTime": 5.703
+        },
+        {
+            "velocity": 81,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 5.984,
+            "duration": 0.3540000000000001,
+            "endTime": 6.338
+        },
+        {
+            "velocity": 81,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 6.652,
+            "duration": 1.1209999999999996,
+            "endTime": 7.773
+        },
+        {
+            "velocity": 85,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 8.003,
+            "duration": 0.4090000000000007,
+            "endTime": 8.412
+        },
+        {
+            "velocity": 85,
+            "pitch": 55,
+            "type": "Note on",
+            "note": "55",
+            "startTime": 8.647,
+            "duration": 0.359,
+            "endTime": 9.006
+        },
+        {
+            "velocity": 86,
+            "pitch": 55,
+            "type": "Note on",
+            "note": "55",
+            "startTime": 9.34,
+            "duration": 1.0190000000000001,
+            "endTime": 10.359
+        },
+        {
+            "velocity": 82,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 10.688,
+            "duration": 0.375,
+            "endTime": 11.063
+        },
+        {
+            "velocity": 83,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 11.323,
+            "duration": 0.4009999999999998,
+            "endTime": 11.724
+        },
+        {
+            "velocity": 78,
+            "pitch": 48,
+            "type": "Note on",
+            "note": "48",
+            "startTime": 11.995,
+            "duration": 0.40300000000000047,
+            "endTime": 12.398
+        },
+        {
+            "velocity": 82,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 12.618,
+            "duration": 0.40199999999999925,
+            "endTime": 13.02
+        },
+        {
+            "velocity": 83,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 13.312,
+            "duration": 0.38400000000000034,
+            "endTime": 13.696
+        },
+        {
+            "velocity": 83,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 13.982,
+            "duration": 0.37400000000000055,
+            "endTime": 14.356
+        },
+        {
+            "velocity": 83,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 14.664,
+            "duration": 1.077,
+            "endTime": 15.741
+        },
+        {
+            "velocity": 78,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 16.01,
+            "duration": 0.37599999999999767,
+            "endTime": 16.386
+        },
+        {
+            "velocity": 73,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 16.676,
+            "duration": 0.4350000000000023,
+            "endTime": 17.111
+        },
+        {
+            "velocity": 85,
+            "pitch": 52,
+            "type": "Note on",
+            "note": "52",
+            "startTime": 17.38,
+            "duration": 0.38500000000000156,
+            "endTime": 17.765
+        },
+        {
+            "velocity": 80,
+            "pitch": 50,
+            "type": "Note on",
+            "note": "50",
+            "startTime": 18.018,
+            "duration": 0.40700000000000003,
+            "endTime": 18.425
+        },
+        {
+            "velocity": 81,
+            "pitch": 48,
+            "type": "Note on",
+            "note": "48",
+            "startTime": 18.706,
+            "duration": 1.5079999999999991,
+            "endTime": 20.214
+        }
+    ]
+}
