@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, request, make_response
+from flask_sockets import Sockets
 import json
 import os
 import signal
 import subprocess
 
+subprocess.Popen(os.path.join(os.path.dirname(os.path.realpath(__file__)), "synthd.sh"))
+
 app = Flask(__name__)
+sockets = Sockets(app)
 
 
 recording_pid = -1
@@ -21,7 +25,6 @@ def serve_recorder_recording_start():
 @app.route("/recorder/create_recording")
 def serve_recorder_create_recording():
     # We just discard the Popen object, we don't need it
-    print(os.path.join(os.path.dirname(os.path.realpath(__file__)), "record.sh"), __file__)
     subprocess.Popen(os.path.join(os.path.dirname(os.path.realpath(__file__)), "record.sh"))
     return jsonify(dict(success=True))
 
@@ -54,5 +57,29 @@ def serve_recording_result():
     return most_recent_recording or "nothing"
 
 
+last_to_play = None
+
+@app.route("/playback/play", methods=["POST"])
+def serve_playback_play():
+    print("Serving /playback/play")
+    global last_to_play
+    last_to_play = request.get_data()
+    print(os.path.join(os.path.dirname(os.path.realpath(__file__)), "playback.sh"))
+    process = subprocess.Popen(os.path.join(os.path.dirname(os.path.realpath(__file__)), "playback.sh"))
+    print(process.pid)
+    # print(dir(process.stdin))
+    # process.communicate(input=request.get_data())
+    return jsonify(dict(success=True))
+
+@app.route("/playback/lasttoplay")
+def serve_last_to_play():
+    print("last to play")
+    return last_to_play
+
+
 if __name__ == "__main__":
-    app.run(port=5000)
+    # app.run(port=5000)
+    from gevent import pywsgi
+    from geventwebsocket.handler import WebSocketHandler
+    server = pywsgi.WSGIServer(('', 5000), app, handler_class=WebSocketHandler)
+    server.serve_forever()

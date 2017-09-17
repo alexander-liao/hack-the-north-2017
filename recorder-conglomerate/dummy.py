@@ -177,5 +177,11 @@ def serve_recorder_recording_result():
         abort(400)
     return jsonify(recording)
 
+
+@app.route("/playback/play", methods=["POST"])
+def serve_playback_play():
+    return jsonify(dict(success=True, submitted_song=request.get_data()))
+
+
 if __name__ == "__main__":
     app.run(port=5000)
