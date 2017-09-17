@@ -10,13 +10,25 @@ import json
 from chordoffsets import *
 from sys import stdin
 
+def equal(block1, block2):
+    if block2 == None:
+        return False
+    head1 = block1[0]
+    head2 = block2[0]
+    return head1["startTime"] - head2["startTime"] == head1["tempo"] and [note["pitch"] for note in block1] == [note["pitch"] for note in block2]
+
 def match(progression, notes):
     chords = progression["chords"]
     if len(chords) > len(notes):
         return -1 # Don't match partial
     chorddata = [data[chord["type"]] for chord in chords]
     weight = 0
-    for block, chord in zip(notes, chorddata):
+    bindex = 0
+    cindex = 0
+    last = None
+    while cindex <= bindex < len(chorddata):
+        block = notes[bindex]
+        chord = chorddata[cindex]
         inner = 0
         for note in block:
             if note["pitch"] in chord[0]:
@@ -24,6 +36,10 @@ def match(progression, notes):
             elif note["pitch"] in chord[1]:
                 inner += 1
         weight += inner / len(block)
+        bindex += 1
+        if not equal(block, last) or len(chorddata) - cindex == len(notes) - bindex:
+            cindex += 1
+        last = block
     return progression["weight"] * weight
 
 selections = 3
